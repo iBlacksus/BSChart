@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BSChartDetailsView" customModule="BSChart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lbx-OT-l0p">
+                    <rect key="frame" x="230" y="8" width="1" height="292"/>
+                    <color key="backgroundColor" red="0.36078431372549019" green="0.36470588235294116" blue="0.36470588235294116" alpha="0.30102882922535212" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="SOQ-3W-LIS"/>
+                    </constraints>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BX7-Mw-8SH">
+                    <rect key="frame" x="75" y="8" width="140" height="150"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feb 12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Al2-OS-3rA">
+                            <rect key="frame" x="8" y="8" width="124" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                            <color key="textColor" red="0.42745098039215684" green="0.42745098039215684" blue="0.44705882352941173" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gxF-f5-wZH" customClass="BSChartDetailsTableView" customModule="BSChart" customModuleProvider="target">
+                            <rect key="frame" x="8" y="22.5" width="124" height="119.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="sectionIndexColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Al2-OS-3rA" firstAttribute="leading" secondItem="BX7-Mw-8SH" secondAttribute="leading" constant="8" id="M8I-Wi-aSB"/>
+                        <constraint firstItem="Al2-OS-3rA" firstAttribute="top" secondItem="BX7-Mw-8SH" secondAttribute="top" constant="8" id="MjD-Ds-Yff"/>
+                        <constraint firstAttribute="width" constant="140" id="QWE-X1-MMs"/>
+                        <constraint firstItem="gxF-f5-wZH" firstAttribute="top" secondItem="Al2-OS-3rA" secondAttribute="bottom" id="WrV-zp-txv"/>
+                        <constraint firstAttribute="trailing" secondItem="Al2-OS-3rA" secondAttribute="trailing" constant="8" id="XrV-OH-Hre"/>
+                        <constraint firstAttribute="height" constant="150" id="Yg0-8d-qTV"/>
+                        <constraint firstAttribute="trailing" secondItem="gxF-f5-wZH" secondAttribute="trailing" constant="8" id="eVi-nb-X0i"/>
+                        <constraint firstAttribute="bottom" secondItem="gxF-f5-wZH" secondAttribute="bottom" constant="8" id="kD3-B5-QPW"/>
+                        <constraint firstItem="gxF-f5-wZH" firstAttribute="leading" secondItem="BX7-Mw-8SH" secondAttribute="leading" constant="8" id="y8f-91-MhF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="BX7-Mw-8SH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="75" id="3IL-pv-hbz"/>
+                <constraint firstItem="lbx-OT-l0p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="8vf-V0-y9Z"/>
+                <constraint firstItem="BX7-Mw-8SH" firstAttribute="top" secondItem="lbx-OT-l0p" secondAttribute="top" id="DYT-2n-lyd"/>
+                <constraint firstItem="lbx-OT-l0p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="230" id="Hrn-dl-ARQ"/>
+                <constraint firstAttribute="bottom" secondItem="lbx-OT-l0p" secondAttribute="bottom" id="Htd-cB-hRP"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="chartDetailsTableView" destination="gxF-f5-wZH" id="5Fa-2X-eeZ"/>
+                <outlet property="dateLabel" destination="Al2-OS-3rA" id="N1x-rP-oua"/>
+                <outlet property="detailsView" destination="BX7-Mw-8SH" id="Fu6-BH-lqL"/>
+                <outlet property="detailsViewHeightConstraint" destination="Yg0-8d-qTV" id="Uhb-d6-3JY"/>
+                <outlet property="detailsViewLeadingConstraint" destination="3IL-pv-hbz" id="dtR-Oo-n82"/>
+                <outlet property="detailsViewTopConstraint" destination="DYT-2n-lyd" id="jno-ST-nXX"/>
+                <outlet property="detailsViewWidthConstraint" destination="QWE-X1-MMs" id="8AQ-gw-vUJ"/>
+                <outlet property="lineView" destination="lbx-OT-l0p" id="BUc-pI-hBs"/>
+                <outlet property="lineViewLeadingConstraint" destination="Hrn-dl-ARQ" id="zg9-HU-LAd"/>
+                <outlet property="lineViewTopConstraint" destination="8vf-V0-y9Z" id="PzA-v0-8IB"/>
+                <outlet property="panGesture" destination="pCv-cX-Khg" id="Qa5-4Y-KgB"/>
+                <outletCollection property="gestureRecognizers" destination="pCv-cX-Khg" appends="YES" id="N1h-3O-fb3"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="48.575712143928037"/>
+        </view>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="pCv-cX-Khg">
+            <connections>
+                <action selector="pan:" destination="iN0-l3-epB" id="7vN-y4-vHH"/>
+                <outlet property="delegate" destination="iN0-l3-epB" id="blU-Tg-VrD"/>
+            </connections>
+        </panGestureRecognizer>
+    </objects>
+</document>

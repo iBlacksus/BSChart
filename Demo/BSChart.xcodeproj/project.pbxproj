@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D6D4CC22D73AEA000AD750 /* BSJSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49822D73AE9000AD750 /* BSJSONValue.swift */; };
+		06D6D4CD22D73AEA000AD750 /* BSChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49922D73AE9000AD750 /* BSChart.swift */; };
+		06D6D4CE22D73AEA000AD750 /* BSChartItemsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49A22D73AE9000AD750 /* BSChartItemsHelper.swift */; };
+		06D6D4CF22D73AEA000AD750 /* BSColorModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49B22D73AE9000AD750 /* BSColorModeManager.swift */; };
+		06D6D4D022D73AEA000AD750 /* BSChartAppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49C22D73AE9000AD750 /* BSChartAppNotifications.swift */; };
+		06D6D4D122D73AEA000AD750 /* BSChartDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A022D73AE9000AD750 /* BSChartDateCell.swift */; };
+		06D6D4D222D73AEA000AD750 /* BSChartDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4A122D73AE9000AD750 /* BSChartDateCell.xib */; };
+		06D6D4D322D73AEA000AD750 /* BSChartDatesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A222D73AE9000AD750 /* BSChartDatesCollectionView.swift */; };
+		06D6D4D422D73AEA000AD750 /* BSChartDatesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4A322D73AE9000AD750 /* BSChartDatesView.xib */; };
+		06D6D4D522D73AEA000AD750 /* BSChartDatesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A422D73AE9000AD750 /* BSChartDatesDataSource.swift */; };
+		06D6D4D622D73AEA000AD750 /* BSChartDatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A522D73AE9000AD750 /* BSChartDatesView.swift */; };
+		06D6D4D722D73AEA000AD750 /* BSChartBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A622D73AE9000AD750 /* BSChartBaseView.swift */; };
+		06D6D4D822D73AEA000AD750 /* BSChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A922D73AE9000AD750 /* BSChartCell.swift */; };
+		06D6D4D922D73AEA000AD750 /* BSChartTitlesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4AA22D73AE9000AD750 /* BSChartTitlesCell.xib */; };
+		06D6D4DA22D73AEA000AD750 /* BSChartTitlesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4AB22D73AE9000AD750 /* BSChartTitlesCell.swift */; };
+		06D6D4DB22D73AEA000AD750 /* BSChartBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4AC22D73AE9000AD750 /* BSChartBaseCell.swift */; };
+		06D6D4DC22D73AEA000AD750 /* BSChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4AD22D73AE9000AD750 /* BSChartCell.xib */; };
+		06D6D4DD22D73AEA000AD750 /* BSChartDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4AF22D73AE9000AD750 /* BSChartDetailsDataSource.swift */; };
+		06D6D4DE22D73AEA000AD750 /* BSChartDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B122D73AE9000AD750 /* BSChartDetailsCell.swift */; };
+		06D6D4DF22D73AEA000AD750 /* BSChartDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4B222D73AE9000AD750 /* BSChartDetailsCell.xib */; };
+		06D6D4E022D73AEA000AD750 /* BSChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B322D73AE9000AD750 /* BSChartView.swift */; };
+		06D6D4E122D73AEA000AD750 /* BSChartDetailsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B422D73AE9000AD750 /* BSChartDetailsTableView.swift */; };
+		06D6D4E222D73AEA000AD750 /* BSChartDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B522D73AE9000AD750 /* BSChartDetailsView.swift */; };
+		06D6D4E322D73AEA000AD750 /* BSChartDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4B622D73AE9000AD750 /* BSChartDetailsView.xib */; };
+		06D6D4E422D73AEA000AD750 /* BSChartDetailsDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B722D73AE9000AD750 /* BSChartDetailsDotView.swift */; };
+		06D6D4E522D73AEA000AD750 /* BSChartTitlesFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B922D73AE9000AD750 /* BSChartTitlesFlowLayout.swift */; };
+		06D6D4E622D73AEA000AD750 /* BSChartTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4BB22D73AE9000AD750 /* BSChartTitleCell.xib */; };
+		06D6D4E722D73AEA000AD750 /* BSChartTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4BC22D73AE9000AD750 /* BSChartTitleCell.swift */; };
+		06D6D4E822D73AEA000AD750 /* BSChartTitlesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4BD22D73AE9000AD750 /* BSChartTitlesDataSource.swift */; };
+		06D6D4E922D73AEA000AD750 /* BSChartTitlesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4BE22D73AE9000AD750 /* BSChartTitlesCollectionView.swift */; };
+		06D6D4EA22D73AEA000AD750 /* BSCheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4BF22D73AE9000AD750 /* BSCheckmarkView.swift */; };
+		06D6D4EB22D73AEA000AD750 /* BSArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4C122D73AE9000AD750 /* BSArrowView.swift */; };
+		06D6D4EC22D73AEA000AD750 /* BSChartMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4C222D73AE9000AD750 /* BSChartMapView.swift */; };
+		06D6D4ED22D73AEA000AD750 /* BSChartMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4C322D73AE9000AD750 /* BSChartMapView.xib */; };
+		06D6D4EE22D73AEA000AD750 /* BSChartGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4C622D73AE9000AD750 /* BSChartGridCell.xib */; };
+		06D6D4EF22D73AEA000AD750 /* BSChartGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4C722D73AE9000AD750 /* BSChartGridCell.swift */; };
+		06D6D4F022D73AEA000AD750 /* BSChartGridDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4C822D73AE9000AD750 /* BSChartGridDataSource.swift */; };
+		06D6D4F122D73AEA000AD750 /* BSChartGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4C922D73AE9000AD750 /* BSChartGridView.swift */; };
+		06D6D4F222D73AEA000AD750 /* BSChartGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4CA22D73AE9000AD750 /* BSChartGridView.xib */; };
+		06D6D4F322D73AEA000AD750 /* BSChartGridTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4CB22D73AE9000AD750 /* BSChartGridTableView.swift */; };
+		06D6D50922D73B02000AD750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4F422D73B02000AD750 /* AppDelegate.swift */; };
+		06D6D50B22D73B02000AD750 /* overview5.json in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4F722D73B02000AD750 /* overview5.json */; };
+		06D6D50C22D73B02000AD750 /* overview4.json in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4F822D73B02000AD750 /* overview4.json */; };
+		06D6D51022D73B02000AD750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4FC22D73B02000AD750 /* Assets.xcassets */; };
+		06D6D51222D73B02000AD750 /* overview1.json in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4FE22D73B02000AD750 /* overview1.json */; };
+		06D6D51322D73B02000AD750 /* BSChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D50122D73B02000AD750 /* BSChartViewController.swift */; };
+		06D6D51422D73B02000AD750 /* BSChartTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D50222D73B02000AD750 /* BSChartTableView.swift */; };
+		06D6D51522D73B02000AD750 /* BSChartDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D50322D73B02000AD750 /* BSChartDataSource.swift */; };
+		06D6D51A22D73DFB000AD750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D50722D73B02000AD750 /* Main.storyboard */; };
+		06D6D51B22D73DFE000AD750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D50522D73B02000AD750 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0640077E223673F80046A44D /* BSChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D6D49822D73AE9000AD750 /* BSJSONValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSJSONValue.swift; sourceTree = "<group>"; };
+		06D6D49922D73AE9000AD750 /* BSChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChart.swift; sourceTree = "<group>"; };
+		06D6D49A22D73AE9000AD750 /* BSChartItemsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartItemsHelper.swift; sourceTree = "<group>"; };
+		06D6D49B22D73AE9000AD750 /* BSColorModeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSColorModeManager.swift; sourceTree = "<group>"; };
+		06D6D49C22D73AE9000AD750 /* BSChartAppNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartAppNotifications.swift; sourceTree = "<group>"; };
+		06D6D4A022D73AE9000AD750 /* BSChartDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDateCell.swift; sourceTree = "<group>"; };
+		06D6D4A122D73AE9000AD750 /* BSChartDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDateCell.xib; sourceTree = "<group>"; };
+		06D6D4A222D73AE9000AD750 /* BSChartDatesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDatesCollectionView.swift; sourceTree = "<group>"; };
+		06D6D4A322D73AE9000AD750 /* BSChartDatesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDatesView.xib; sourceTree = "<group>"; };
+		06D6D4A422D73AE9000AD750 /* BSChartDatesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDatesDataSource.swift; sourceTree = "<group>"; };
+		06D6D4A522D73AE9000AD750 /* BSChartDatesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDatesView.swift; sourceTree = "<group>"; };
+		06D6D4A622D73AE9000AD750 /* BSChartBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartBaseView.swift; sourceTree = "<group>"; };
+		06D6D4A922D73AE9000AD750 /* BSChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartCell.swift; sourceTree = "<group>"; };
+		06D6D4AA22D73AE9000AD750 /* BSChartTitlesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartTitlesCell.xib; sourceTree = "<group>"; };
+		06D6D4AB22D73AE9000AD750 /* BSChartTitlesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesCell.swift; sourceTree = "<group>"; };
+		06D6D4AC22D73AE9000AD750 /* BSChartBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartBaseCell.swift; sourceTree = "<group>"; };
+		06D6D4AD22D73AE9000AD750 /* BSChartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartCell.xib; sourceTree = "<group>"; };
+		06D6D4AF22D73AE9000AD750 /* BSChartDetailsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsDataSource.swift; sourceTree = "<group>"; };
+		06D6D4B122D73AE9000AD750 /* BSChartDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsCell.swift; sourceTree = "<group>"; };
+		06D6D4B222D73AE9000AD750 /* BSChartDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDetailsCell.xib; sourceTree = "<group>"; };
+		06D6D4B322D73AE9000AD750 /* BSChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartView.swift; sourceTree = "<group>"; };
+		06D6D4B422D73AE9000AD750 /* BSChartDetailsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsTableView.swift; sourceTree = "<group>"; };
+		06D6D4B522D73AE9000AD750 /* BSChartDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsView.swift; sourceTree = "<group>"; };
+		06D6D4B622D73AE9000AD750 /* BSChartDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDetailsView.xib; sourceTree = "<group>"; };
+		06D6D4B722D73AE9000AD750 /* BSChartDetailsDotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsDotView.swift; sourceTree = "<group>"; };
+		06D6D4B922D73AE9000AD750 /* BSChartTitlesFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesFlowLayout.swift; sourceTree = "<group>"; };
+		06D6D4BB22D73AE9000AD750 /* BSChartTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartTitleCell.xib; sourceTree = "<group>"; };
+		06D6D4BC22D73AE9000AD750 /* BSChartTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitleCell.swift; sourceTree = "<group>"; };
+		06D6D4BD22D73AE9000AD750 /* BSChartTitlesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesDataSource.swift; sourceTree = "<group>"; };
+		06D6D4BE22D73AE9000AD750 /* BSChartTitlesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesCollectionView.swift; sourceTree = "<group>"; };
+		06D6D4BF22D73AE9000AD750 /* BSCheckmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCheckmarkView.swift; sourceTree = "<group>"; };
+		06D6D4C122D73AE9000AD750 /* BSArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSArrowView.swift; sourceTree = "<group>"; };
+		06D6D4C222D73AE9000AD750 /* BSChartMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartMapView.swift; sourceTree = "<group>"; };
+		06D6D4C322D73AE9000AD750 /* BSChartMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartMapView.xib; sourceTree = "<group>"; };
+		06D6D4C622D73AE9000AD750 /* BSChartGridCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartGridCell.xib; sourceTree = "<group>"; };
+		06D6D4C722D73AE9000AD750 /* BSChartGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridCell.swift; sourceTree = "<group>"; };
+		06D6D4C822D73AE9000AD750 /* BSChartGridDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridDataSource.swift; sourceTree = "<group>"; };
+		06D6D4C922D73AE9000AD750 /* BSChartGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridView.swift; sourceTree = "<group>"; };
+		06D6D4CA22D73AE9000AD750 /* BSChartGridView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartGridView.xib; sourceTree = "<group>"; };
+		06D6D4CB22D73AE9000AD750 /* BSChartGridTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridTableView.swift; sourceTree = "<group>"; };
+		06D6D4F422D73B02000AD750 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		06D6D4F722D73B02000AD750 /* overview5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overview5.json; sourceTree = "<group>"; };
+		06D6D4F822D73B02000AD750 /* overview4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overview4.json; sourceTree = "<group>"; };
+		06D6D4FA22D73B02000AD750 /* overview3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overview3.json; sourceTree = "<group>"; };
+		06D6D4FC22D73B02000AD750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06D6D4FD22D73B02000AD750 /* overview2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overview2.json; sourceTree = "<group>"; };
+		06D6D4FE22D73B02000AD750 /* overview1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overview1.json; sourceTree = "<group>"; };
+		06D6D50122D73B02000AD750 /* BSChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartViewController.swift; sourceTree = "<group>"; };
+		06D6D50222D73B02000AD750 /* BSChartTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTableView.swift; sourceTree = "<group>"; };
+		06D6D50322D73B02000AD750 /* BSChartDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDataSource.swift; sourceTree = "<group>"; };
+		06D6D50622D73B02000AD750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06D6D50822D73B02000AD750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06D6D51D22D73F41000AD750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0640077B223673F80046A44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06400775223673F80046A44D = {
+			isa = PBXGroup;
+			children = (
+				06400780223673F80046A44D /* BSChart */,
+				06D6D49622D73AE9000AD750 /* BSChart */,
+				0640077F223673F80046A44D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0640077F223673F80046A44D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0640077E223673F80046A44D /* BSChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06400780223673F80046A44D /* BSChart */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D50422D73B02000AD750 /* UI */,
+				06D6D4FF22D73B02000AD750 /* Controller */,
+				06D6D4F622D73B02000AD750 /* Resources */,
+				06D6D4F422D73B02000AD750 /* AppDelegate.swift */,
+				06D6D51D22D73F41000AD750 /* Info.plist */,
+			);
+			path = BSChart;
+			sourceTree = "<group>";
+		};
+		06D6D49622D73AE9000AD750 /* BSChart */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D49722D73AE9000AD750 /* Model */,
+				06D6D49D22D73AE9000AD750 /* View */,
+			);
+			name = BSChart;
+			path = ../BSChart;
+			sourceTree = "<group>";
+		};
+		06D6D49722D73AE9000AD750 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D49822D73AE9000AD750 /* BSJSONValue.swift */,
+				06D6D49922D73AE9000AD750 /* BSChart.swift */,
+				06D6D49A22D73AE9000AD750 /* BSChartItemsHelper.swift */,
+				06D6D49B22D73AE9000AD750 /* BSColorModeManager.swift */,
+				06D6D49C22D73AE9000AD750 /* BSChartAppNotifications.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06D6D49D22D73AE9000AD750 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D49E22D73AE9000AD750 /* Dates */,
+				06D6D4A622D73AE9000AD750 /* BSChartBaseView.swift */,
+				06D6D4A722D73AE9000AD750 /* Chart */,
+				06D6D4AE22D73AE9000AD750 /* Details */,
+				06D6D4B822D73AE9000AD750 /* Titles */,
+				06D6D4C022D73AE9000AD750 /* Map */,
+				06D6D4C422D73AE9000AD750 /* Grid */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06D6D49E22D73AE9000AD750 /* Dates */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D49F22D73AE9000AD750 /* Cells */,
+				06D6D4A222D73AE9000AD750 /* BSChartDatesCollectionView.swift */,
+				06D6D4A322D73AE9000AD750 /* BSChartDatesView.xib */,
+				06D6D4A422D73AE9000AD750 /* BSChartDatesDataSource.swift */,
+				06D6D4A522D73AE9000AD750 /* BSChartDatesView.swift */,
+			);
+			path = Dates;
+			sourceTree = "<group>";
+		};
+		06D6D49F22D73AE9000AD750 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D4A022D73AE9000AD750 /* BSChartDateCell.swift */,
+				06D6D4A122D73AE9000AD750 /* BSChartDateCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		06D6D4A722D73AE9000AD750 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D4A822D73AE9000AD750 /* Cells */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		06D6D4A822D73AE9000AD750 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D4A922D73AE9000AD750 /* BSChartCell.swift */,
+				06D6D4AA22D73AE9000AD750 /* BSChartTitlesCell.xib */,
+				06D6D4AB22D73AE9000AD750 /* BSChartTitlesCell.swift */,
+				06D6D4AC22D73AE9000AD750 /* BSChartBaseCell.swift */,
+				06D6D4AD22D73AE9000AD750 /* BSChartCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		06D6D4AE22D73AE9000AD750 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D4AF22D73AE9000AD750 /* BSChartDetailsDataSource.swift */,
+				06D6D4B022D73AE9000AD750 /* Cells */,
+				06D6D4B322D73AE9000AD750 /* BSChartView.swift */,
+				06D6D4B422D73AE9000AD750 /* BSChartDetailsTableView.swift */,
+				06D6D4B522D73AE9000AD750 /* BSChartDetailsView.swift */,
+				06D6D4B622D73AE9000AD750 /* BSChartDetailsView.xib */,
+				06D6D4B722D73AE9000AD750 /* BSChartDetailsDotView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		06D6D4B022D73AE9000AD750 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D4B122D73AE9000AD750 /* BSChartDetailsCell.swift */,
+				06D6D4B222D73AE9000AD750 /* BSChartDetailsCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		06D6D4B822D73AE9000AD750 /* Titles */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D4B922D73AE9000AD750 /* BSChartTitlesFlowLayout.swift */,
+				06D6D4BA22D73AE9000AD750 /* Cells */,
+				06D6D4BD22D73AE9000AD750 /* BSChartTitlesDataSource.swift */,
+				06D6D4BE22D73AE9000AD750 /* BSChartTitlesCollectionView.swift */,
+				06D6D4BF22D73AE9000AD750 /* BSCheckmarkView.swift */,
+			);
+			path = Titles;
+			sourceTree = "<group>";
+		};
+		06D6D4BA22D73AE9000AD750 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D4BB22D73AE9000AD750 /* BSChartTitleCell.xib */,
+				06D6D4BC22D73AE9000AD750 /* BSChartTitleCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		06D6D4C022D73AE9000AD750 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D4C122D73AE9000AD750 /* BSArrowView.swift */,
+				06D6D4C222D73AE9000AD750 /* BSChartMapView.swift */,
+				06D6D4C322D73AE9000AD750 /* BSChartMapView.xib */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		06D6D4C422D73AE9000AD750 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D4C522D73AE9000AD750 /* Cells */,
+				06D6D4C822D73AE9000AD750 /* BSChartGridDataSource.swift */,
+				06D6D4C922D73AE9000AD750 /* BSChartGridView.swift */,
+				06D6D4CA22D73AE9000AD750 /* BSChartGridView.xib */,
+				06D6D4CB22D73AE9000AD750 /* BSChartGridTableView.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		06D6D4C522D73AE9000AD750 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D4C622D73AE9000AD750 /* BSChartGridCell.xib */,
+				06D6D4C722D73AE9000AD750 /* BSChartGridCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		06D6D4F622D73B02000AD750 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D4FE22D73B02000AD750 /* overview1.json */,
+				06D6D4FD22D73B02000AD750 /* overview2.json */,
+				06D6D4FA22D73B02000AD750 /* overview3.json */,
+				06D6D4F822D73B02000AD750 /* overview4.json */,
+				06D6D4F722D73B02000AD750 /* overview5.json */,
+				06D6D4FC22D73B02000AD750 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		06D6D4FF22D73B02000AD750 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D50122D73B02000AD750 /* BSChartViewController.swift */,
+				06D6D50222D73B02000AD750 /* BSChartTableView.swift */,
+				06D6D50322D73B02000AD750 /* BSChartDataSource.swift */,
+			);
+			path = Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		06D6D50422D73B02000AD750 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				06D6D50722D73B02000AD750 /* Main.storyboard */,
+				06D6D50522D73B02000AD750 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0640077D223673F80046A44D /* BSChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06400790223673FA0046A44D /* Build configuration list for PBXNativeTarget "BSChart" */;
+			buildPhases = (
+				0640077A223673F80046A44D /* Sources */,
+				0640077B223673F80046A44D /* Frameworks */,
+				0640077C223673F80046A44D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSChart;
+			productName = BSChart;
+			productReference = 0640077E223673F80046A44D /* BSChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06400776223673F80046A44D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = iBlacksus;
+				TargetAttributes = {
+					0640077D223673F80046A44D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 06400779223673F80046A44D /* Build configuration list for PBXProject "BSChart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06400775223673F80046A44D;
+			productRefGroup = 0640077F223673F80046A44D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0640077D223673F80046A44D /* BSChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0640077C223673F80046A44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D6D51222D73B02000AD750 /* overview1.json in Resources */,
+				06D6D4D422D73AEA000AD750 /* BSChartDatesView.xib in Resources */,
+				06D6D50C22D73B02000AD750 /* overview4.json in Resources */,
+				06D6D4E622D73AEA000AD750 /* BSChartTitleCell.xib in Resources */,
+				06D6D51022D73B02000AD750 /* Assets.xcassets in Resources */,
+				06D6D50B22D73B02000AD750 /* overview5.json in Resources */,
+				06D6D4ED22D73AEA000AD750 /* BSChartMapView.xib in Resources */,
+				06D6D4DF22D73AEA000AD750 /* BSChartDetailsCell.xib in Resources */,
+				06D6D51A22D73DFB000AD750 /* Main.storyboard in Resources */,
+				06D6D4F222D73AEA000AD750 /* BSChartGridView.xib in Resources */,
+				06D6D4EE22D73AEA000AD750 /* BSChartGridCell.xib in Resources */,
+				06D6D4D222D73AEA000AD750 /* BSChartDateCell.xib in Resources */,
+				06D6D4D922D73AEA000AD750 /* BSChartTitlesCell.xib in Resources */,
+				06D6D51B22D73DFE000AD750 /* LaunchScreen.storyboard in Resources */,
+				06D6D4DC22D73AEA000AD750 /* BSChartCell.xib in Resources */,
+				06D6D4E322D73AEA000AD750 /* BSChartDetailsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0640077A223673F80046A44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D6D4F322D73AEA000AD750 /* BSChartGridTableView.swift in Sources */,
+				06D6D4F122D73AEA000AD750 /* BSChartGridView.swift in Sources */,
+				06D6D4D722D73AEA000AD750 /* BSChartBaseView.swift in Sources */,
+				06D6D4D122D73AEA000AD750 /* BSChartDateCell.swift in Sources */,
+				06D6D4EB22D73AEA000AD750 /* BSArrowView.swift in Sources */,
+				06D6D51422D73B02000AD750 /* BSChartTableView.swift in Sources */,
+				06D6D4CD22D73AEA000AD750 /* BSChart.swift in Sources */,
+				06D6D4E222D73AEA000AD750 /* BSChartDetailsView.swift in Sources */,
+				06D6D4DB22D73AEA000AD750 /* BSChartBaseCell.swift in Sources */,
+				06D6D4E822D73AEA000AD750 /* BSChartTitlesDataSource.swift in Sources */,
+				06D6D4DE22D73AEA000AD750 /* BSChartDetailsCell.swift in Sources */,
+				06D6D4EC22D73AEA000AD750 /* BSChartMapView.swift in Sources */,
+				06D6D4D822D73AEA000AD750 /* BSChartCell.swift in Sources */,
+				06D6D4E022D73AEA000AD750 /* BSChartView.swift in Sources */,
+				06D6D4EF22D73AEA000AD750 /* BSChartGridCell.swift in Sources */,
+				06D6D4CE22D73AEA000AD750 /* BSChartItemsHelper.swift in Sources */,
+				06D6D4E122D73AEA000AD750 /* BSChartDetailsTableView.swift in Sources */,
+				06D6D4E722D73AEA000AD750 /* BSChartTitleCell.swift in Sources */,
+				06D6D4F022D73AEA000AD750 /* BSChartGridDataSource.swift in Sources */,
+				06D6D4DD22D73AEA000AD750 /* BSChartDetailsDataSource.swift in Sources */,
+				06D6D4D322D73AEA000AD750 /* BSChartDatesCollectionView.swift in Sources */,
+				06D6D4CF22D73AEA000AD750 /* BSColorModeManager.swift in Sources */,
+				06D6D4D522D73AEA000AD750 /* BSChartDatesDataSource.swift in Sources */,
+				06D6D50922D73B02000AD750 /* AppDelegate.swift in Sources */,
+				06D6D51522D73B02000AD750 /* BSChartDataSource.swift in Sources */,
+				06D6D4DA22D73AEA000AD750 /* BSChartTitlesCell.swift in Sources */,
+				06D6D4D622D73AEA000AD750 /* BSChartDatesView.swift in Sources */,
+				06D6D4E922D73AEA000AD750 /* BSChartTitlesCollectionView.swift in Sources */,
+				06D6D4CC22D73AEA000AD750 /* BSJSONValue.swift in Sources */,
+				06D6D4D022D73AEA000AD750 /* BSChartAppNotifications.swift in Sources */,
+				06D6D51322D73B02000AD750 /* BSChartViewController.swift in Sources */,
+				06D6D4E422D73AEA000AD750 /* BSChartDetailsDotView.swift in Sources */,
+				06D6D4EA22D73AEA000AD750 /* BSCheckmarkView.swift in Sources */,
+				06D6D4E522D73AEA000AD750 /* BSChartTitlesFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06D6D50522D73B02000AD750 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D6D50622D73B02000AD750 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		06D6D50722D73B02000AD750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D6D50822D73B02000AD750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0640078E223673FA0046A44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0640078F223673FA0046A44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06400791223673FA0046A44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2BJ7L853CF;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iBlacksus.BSChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "BSChart Dev";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06400792223673FA0046A44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2BJ7L853CF;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iBlacksus.BSChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "BSChart AdHoc";
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06400779223673F80046A44D /* Build configuration list for PBXProject "BSChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0640078E223673FA0046A44D /* Debug */,
+				0640078F223673FA0046A44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06400790223673FA0046A44D /* Build configuration list for PBXNativeTarget "BSChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06400791223673FA0046A44D /* Debug */,
+				06400792223673FA0046A44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06400776223673F80046A44D /* Project object */;
+}

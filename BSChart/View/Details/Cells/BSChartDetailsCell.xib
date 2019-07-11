@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="BSChartDetailsCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="BSChartDetailsCell" id="KGk-i7-Jjw" customClass="BSChartDetailsCell" customModule="BSChart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="99%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B52-Yo-mBr">
+                        <rect key="frame" x="0.0" y="0.0" width="25" height="43.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="25" id="Jve-wN-U1v"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0hQ-75-oLj">
+                        <rect key="frame" x="29" y="0.0" width="28.5" height="43.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZ5-VR-U6g">
+                        <rect key="frame" x="312" y="0.0" width="8" height="43.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="0hQ-75-oLj" secondAttribute="bottom" id="0wn-ta-j1I"/>
+                    <constraint firstAttribute="bottom" secondItem="B52-Yo-mBr" secondAttribute="bottom" id="8fx-5k-e4n"/>
+                    <constraint firstAttribute="trailing" secondItem="UZ5-VR-U6g" secondAttribute="trailing" id="AMV-hi-jUp"/>
+                    <constraint firstAttribute="bottom" secondItem="UZ5-VR-U6g" secondAttribute="bottom" id="J80-eJ-ah9"/>
+                    <constraint firstItem="0hQ-75-oLj" firstAttribute="leading" secondItem="B52-Yo-mBr" secondAttribute="trailing" constant="4" id="MpQ-0f-PlF"/>
+                    <constraint firstItem="UZ5-VR-U6g" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0hQ-75-oLj" secondAttribute="trailing" constant="4" id="RCU-j2-vyw"/>
+                    <constraint firstItem="B52-Yo-mBr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fjB-SP-RJN"/>
+                    <constraint firstItem="B52-Yo-mBr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="iG6-vc-dv2"/>
+                    <constraint firstItem="UZ5-VR-U6g" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jFd-Yr-lDb"/>
+                    <constraint firstItem="0hQ-75-oLj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kGq-qj-YQg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="nameLabel" destination="0hQ-75-oLj" id="vAR-UH-2gN"/>
+                <outlet property="percentLabel" destination="B52-Yo-mBr" id="dlS-Yv-el9"/>
+                <outlet property="percentTrailingConstraint" destination="MpQ-0f-PlF" id="V1e-Tn-ipc"/>
+                <outlet property="percentWidthConstraint" destination="Jve-wN-U1v" id="R2u-07-SZo"/>
+                <outlet property="valueLabel" destination="UZ5-VR-U6g" id="DRS-Bg-mP7"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

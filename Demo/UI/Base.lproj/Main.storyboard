@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Md7-l3-DQd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chart View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="BSChartViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="BSChartViewController" customModule="BSChart" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7WY-Fn-OUi"/>
+                        <viewControllerLayoutGuide type="bottom" id="xzr-uF-lnO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="iJN-Cp-wHL" customClass="BSChartTableView" customModule="BSChart" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <inset key="separatorInset" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="iJN-Cp-wHL" secondAttribute="bottom" id="6UE-ni-VEY"/>
+                            <constraint firstAttribute="trailing" secondItem="iJN-Cp-wHL" secondAttribute="trailing" id="SMe-CS-Jts"/>
+                            <constraint firstItem="iJN-Cp-wHL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Wu9-wG-Nlh"/>
+                            <constraint firstItem="iJN-Cp-wHL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YqC-q2-tB2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gCr-vY-qta">
+                        <barButtonItem key="rightBarButtonItem" title="Night Mode" id="Cfx-7k-9P4">
+                            <connections>
+                                <action selector="switchColorMode:" destination="BYZ-38-t0r" id="WzT-L3-nCK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="switchModeButton" destination="Cfx-7k-9P4" id="Pin-Dz-buZ"/>
+                        <outlet property="tableView" destination="iJN-Cp-wHL" id="vfG-fz-k8v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-130" y="27"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cOB-Gl-qgy">
+            <objects>
+                <navigationController id="Md7-l3-DQd" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="F2D-e4-JQU">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Tth-HJ-r9j"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zc6-uM-VvR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-974" y="27"/>
+        </scene>
+    </scenes>
+</document>
