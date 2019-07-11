@@ -4,14 +4,11 @@
 ![Image](ReadmeResources/demo2.jpg)
 ![Image](ReadmeResources/demo.gif)
 
-BSChart is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## Installation
+  * Download whole project
+  * Drag the folder `BSChart` into your project
 
-```ruby
-pod "BSChart"
-```
-
-## Also available loading charts from JSON file (see Demo)
+## Available loading charts from JSON files (see Demo) and creating objects manually
 
 ## Requirements
   * iOS 10.0 or higher

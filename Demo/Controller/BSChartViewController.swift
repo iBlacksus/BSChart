@@ -142,7 +142,7 @@ class BSChartViewController: UIViewController {
         
         for i in 1...5 {
             guard let url = Bundle.main.url(forResource: "overview" + String(i), withExtension: "json") else {
-                return nil
+                continue
             }
             
             do {

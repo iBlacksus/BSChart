@@ -7,46 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06D6D4CC22D73AEA000AD750 /* BSJSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49822D73AE9000AD750 /* BSJSONValue.swift */; };
-		06D6D4CD22D73AEA000AD750 /* BSChartObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49922D73AE9000AD750 /* BSChartObject.swift */; };
-		06D6D4CE22D73AEA000AD750 /* BSChartItemsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49A22D73AE9000AD750 /* BSChartItemsHelper.swift */; };
-		06D6D4CF22D73AEA000AD750 /* BSColorModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49B22D73AE9000AD750 /* BSColorModeManager.swift */; };
-		06D6D4D022D73AEA000AD750 /* BSChartAppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49C22D73AE9000AD750 /* BSChartAppNotifications.swift */; };
-		06D6D4D122D73AEA000AD750 /* BSChartDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A022D73AE9000AD750 /* BSChartDateCell.swift */; };
-		06D6D4D222D73AEA000AD750 /* BSChartDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4A122D73AE9000AD750 /* BSChartDateCell.xib */; };
-		06D6D4D322D73AEA000AD750 /* BSChartDatesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A222D73AE9000AD750 /* BSChartDatesCollectionView.swift */; };
-		06D6D4D422D73AEA000AD750 /* BSChartDatesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4A322D73AE9000AD750 /* BSChartDatesView.xib */; };
-		06D6D4D522D73AEA000AD750 /* BSChartDatesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A422D73AE9000AD750 /* BSChartDatesDataSource.swift */; };
-		06D6D4D622D73AEA000AD750 /* BSChartDatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A522D73AE9000AD750 /* BSChartDatesView.swift */; };
-		06D6D4D722D73AEA000AD750 /* BSChartBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A622D73AE9000AD750 /* BSChartBaseView.swift */; };
-		06D6D4D822D73AEA000AD750 /* BSChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4A922D73AE9000AD750 /* BSChartCell.swift */; };
-		06D6D4D922D73AEA000AD750 /* BSChartTitlesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4AA22D73AE9000AD750 /* BSChartTitlesCell.xib */; };
-		06D6D4DA22D73AEA000AD750 /* BSChartTitlesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4AB22D73AE9000AD750 /* BSChartTitlesCell.swift */; };
-		06D6D4DB22D73AEA000AD750 /* BSChartBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4AC22D73AE9000AD750 /* BSChartBaseCell.swift */; };
-		06D6D4DC22D73AEA000AD750 /* BSChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4AD22D73AE9000AD750 /* BSChartCell.xib */; };
-		06D6D4DD22D73AEA000AD750 /* BSChartDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4AF22D73AE9000AD750 /* BSChartDetailsDataSource.swift */; };
-		06D6D4DE22D73AEA000AD750 /* BSChartDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B122D73AE9000AD750 /* BSChartDetailsCell.swift */; };
-		06D6D4DF22D73AEA000AD750 /* BSChartDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4B222D73AE9000AD750 /* BSChartDetailsCell.xib */; };
-		06D6D4E022D73AEA000AD750 /* BSChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B322D73AE9000AD750 /* BSChartView.swift */; };
-		06D6D4E122D73AEA000AD750 /* BSChartDetailsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B422D73AE9000AD750 /* BSChartDetailsTableView.swift */; };
-		06D6D4E222D73AEA000AD750 /* BSChartDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B522D73AE9000AD750 /* BSChartDetailsView.swift */; };
-		06D6D4E322D73AEA000AD750 /* BSChartDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4B622D73AE9000AD750 /* BSChartDetailsView.xib */; };
-		06D6D4E422D73AEA000AD750 /* BSChartDetailsDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B722D73AE9000AD750 /* BSChartDetailsDotView.swift */; };
-		06D6D4E522D73AEA000AD750 /* BSChartTitlesFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4B922D73AE9000AD750 /* BSChartTitlesFlowLayout.swift */; };
-		06D6D4E622D73AEA000AD750 /* BSChartTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4BB22D73AE9000AD750 /* BSChartTitleCell.xib */; };
-		06D6D4E722D73AEA000AD750 /* BSChartTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4BC22D73AE9000AD750 /* BSChartTitleCell.swift */; };
-		06D6D4E822D73AEA000AD750 /* BSChartTitlesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4BD22D73AE9000AD750 /* BSChartTitlesDataSource.swift */; };
-		06D6D4E922D73AEA000AD750 /* BSChartTitlesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4BE22D73AE9000AD750 /* BSChartTitlesCollectionView.swift */; };
-		06D6D4EA22D73AEA000AD750 /* BSCheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4BF22D73AE9000AD750 /* BSCheckmarkView.swift */; };
-		06D6D4EB22D73AEA000AD750 /* BSArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4C122D73AE9000AD750 /* BSArrowView.swift */; };
-		06D6D4EC22D73AEA000AD750 /* BSChartMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4C222D73AE9000AD750 /* BSChartMapView.swift */; };
-		06D6D4ED22D73AEA000AD750 /* BSChartMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4C322D73AE9000AD750 /* BSChartMapView.xib */; };
-		06D6D4EE22D73AEA000AD750 /* BSChartGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4C622D73AE9000AD750 /* BSChartGridCell.xib */; };
-		06D6D4EF22D73AEA000AD750 /* BSChartGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4C722D73AE9000AD750 /* BSChartGridCell.swift */; };
-		06D6D4F022D73AEA000AD750 /* BSChartGridDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4C822D73AE9000AD750 /* BSChartGridDataSource.swift */; };
-		06D6D4F122D73AEA000AD750 /* BSChartGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4C922D73AE9000AD750 /* BSChartGridView.swift */; };
-		06D6D4F222D73AEA000AD750 /* BSChartGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4CA22D73AE9000AD750 /* BSChartGridView.xib */; };
-		06D6D4F322D73AEA000AD750 /* BSChartGridTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4CB22D73AE9000AD750 /* BSChartGridTableView.swift */; };
+		06B7382E22D7D8D3002923BE /* overview2.json in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4FD22D73B02000AD750 /* overview2.json */; };
+		06B7382F22D7D8D3002923BE /* overview3.json in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4FA22D73B02000AD750 /* overview3.json */; };
+		06B7385F22D7D967002923BE /* BSJSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7383122D7D967002923BE /* BSJSONValue.swift */; };
+		06B7386022D7D967002923BE /* BSChartAppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7383222D7D967002923BE /* BSChartAppNotifications.swift */; };
+		06B7386122D7D967002923BE /* BSChartDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7383422D7D967002923BE /* BSChartDateCell.swift */; };
+		06B7386222D7D967002923BE /* BSChartDatesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7383522D7D967002923BE /* BSChartDatesCollectionView.swift */; };
+		06B7386322D7D967002923BE /* BSChartDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B7383622D7D967002923BE /* BSChartDateCell.xib */; };
+		06B7386422D7D967002923BE /* BSChartDatesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B7383722D7D967002923BE /* BSChartDatesView.xib */; };
+		06B7386522D7D967002923BE /* BSChartDatesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7383822D7D967002923BE /* BSChartDatesDataSource.swift */; };
+		06B7386622D7D967002923BE /* BSChartDatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7383922D7D967002923BE /* BSChartDatesView.swift */; };
+		06B7386722D7D967002923BE /* BSChartObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7383A22D7D967002923BE /* BSChartObject.swift */; };
+		06B7386822D7D967002923BE /* BSChartBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7383B22D7D967002923BE /* BSChartBaseView.swift */; };
+		06B7386922D7D967002923BE /* BSChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7383D22D7D967002923BE /* BSChartCell.swift */; };
+		06B7386A22D7D967002923BE /* BSChartTitlesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B7383E22D7D967002923BE /* BSChartTitlesCell.xib */; };
+		06B7386B22D7D967002923BE /* BSChartTitlesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7383F22D7D967002923BE /* BSChartTitlesCell.swift */; };
+		06B7386C22D7D967002923BE /* BSChartBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7384022D7D967002923BE /* BSChartBaseCell.swift */; };
+		06B7386D22D7D967002923BE /* BSChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B7384122D7D967002923BE /* BSChartCell.xib */; };
+		06B7386E22D7D967002923BE /* BSChartDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7384322D7D967002923BE /* BSChartDetailsDataSource.swift */; };
+		06B7386F22D7D967002923BE /* BSChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7384422D7D967002923BE /* BSChartView.swift */; };
+		06B7387022D7D967002923BE /* BSChartDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7384522D7D967002923BE /* BSChartDetailsCell.swift */; };
+		06B7387122D7D967002923BE /* BSChartDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B7384622D7D967002923BE /* BSChartDetailsCell.xib */; };
+		06B7387222D7D967002923BE /* BSChartDetailsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7384722D7D967002923BE /* BSChartDetailsTableView.swift */; };
+		06B7387322D7D967002923BE /* BSChartDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7384822D7D967002923BE /* BSChartDetailsView.swift */; };
+		06B7387422D7D967002923BE /* BSChartDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B7384922D7D967002923BE /* BSChartDetailsView.xib */; };
+		06B7387522D7D967002923BE /* BSChartDetailsDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7384A22D7D967002923BE /* BSChartDetailsDotView.swift */; };
+		06B7387622D7D967002923BE /* BSChartItemsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7384B22D7D967002923BE /* BSChartItemsHelper.swift */; };
+		06B7387722D7D967002923BE /* BSChartTitlesFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7384D22D7D967002923BE /* BSChartTitlesFlowLayout.swift */; };
+		06B7387822D7D967002923BE /* BSChartTitlesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7384E22D7D967002923BE /* BSChartTitlesDataSource.swift */; };
+		06B7387922D7D967002923BE /* BSChartTitlesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7384F22D7D967002923BE /* BSChartTitlesCollectionView.swift */; };
+		06B7387A22D7D967002923BE /* BSCheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7385022D7D967002923BE /* BSCheckmarkView.swift */; };
+		06B7387B22D7D967002923BE /* BSChartTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B7385122D7D967002923BE /* BSChartTitleCell.xib */; };
+		06B7387C22D7D967002923BE /* BSChartTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7385222D7D967002923BE /* BSChartTitleCell.swift */; };
+		06B7387D22D7D967002923BE /* BSArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7385422D7D967002923BE /* BSArrowView.swift */; };
+		06B7387E22D7D967002923BE /* BSChartMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7385522D7D967002923BE /* BSChartMapView.swift */; };
+		06B7387F22D7D967002923BE /* BSChartMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B7385622D7D967002923BE /* BSChartMapView.xib */; };
+		06B7388022D7D967002923BE /* BSColorModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7385722D7D967002923BE /* BSColorModeManager.swift */; };
+		06B7388122D7D967002923BE /* BSChartGridDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7385922D7D967002923BE /* BSChartGridDataSource.swift */; };
+		06B7388222D7D967002923BE /* BSChartGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B7385A22D7D967002923BE /* BSChartGridCell.xib */; };
+		06B7388322D7D967002923BE /* BSChartGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7385B22D7D967002923BE /* BSChartGridView.swift */; };
+		06B7388422D7D967002923BE /* BSChartGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7385C22D7D967002923BE /* BSChartGridCell.swift */; };
+		06B7388522D7D967002923BE /* BSChartGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B7385D22D7D967002923BE /* BSChartGridView.xib */; };
+		06B7388622D7D967002923BE /* BSChartGridTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7385E22D7D967002923BE /* BSChartGridTableView.swift */; };
 		06D6D50922D73B02000AD750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D4F422D73B02000AD750 /* AppDelegate.swift */; };
 		06D6D50B22D73B02000AD750 /* overview5.json in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4F722D73B02000AD750 /* overview5.json */; };
 		06D6D50C22D73B02000AD750 /* overview4.json in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D4F822D73B02000AD750 /* overview4.json */; };
@@ -61,46 +63,46 @@
 
 /* Begin PBXFileReference section */
 		0640077E223673F80046A44D /* BSChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		06D6D49822D73AE9000AD750 /* BSJSONValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSJSONValue.swift; sourceTree = "<group>"; };
-		06D6D49922D73AE9000AD750 /* BSChartObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartObject.swift; sourceTree = "<group>"; };
-		06D6D49A22D73AE9000AD750 /* BSChartItemsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartItemsHelper.swift; sourceTree = "<group>"; };
-		06D6D49B22D73AE9000AD750 /* BSColorModeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSColorModeManager.swift; sourceTree = "<group>"; };
-		06D6D49C22D73AE9000AD750 /* BSChartAppNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartAppNotifications.swift; sourceTree = "<group>"; };
-		06D6D4A022D73AE9000AD750 /* BSChartDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDateCell.swift; sourceTree = "<group>"; };
-		06D6D4A122D73AE9000AD750 /* BSChartDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDateCell.xib; sourceTree = "<group>"; };
-		06D6D4A222D73AE9000AD750 /* BSChartDatesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDatesCollectionView.swift; sourceTree = "<group>"; };
-		06D6D4A322D73AE9000AD750 /* BSChartDatesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDatesView.xib; sourceTree = "<group>"; };
-		06D6D4A422D73AE9000AD750 /* BSChartDatesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDatesDataSource.swift; sourceTree = "<group>"; };
-		06D6D4A522D73AE9000AD750 /* BSChartDatesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDatesView.swift; sourceTree = "<group>"; };
-		06D6D4A622D73AE9000AD750 /* BSChartBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartBaseView.swift; sourceTree = "<group>"; };
-		06D6D4A922D73AE9000AD750 /* BSChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartCell.swift; sourceTree = "<group>"; };
-		06D6D4AA22D73AE9000AD750 /* BSChartTitlesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartTitlesCell.xib; sourceTree = "<group>"; };
-		06D6D4AB22D73AE9000AD750 /* BSChartTitlesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesCell.swift; sourceTree = "<group>"; };
-		06D6D4AC22D73AE9000AD750 /* BSChartBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartBaseCell.swift; sourceTree = "<group>"; };
-		06D6D4AD22D73AE9000AD750 /* BSChartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartCell.xib; sourceTree = "<group>"; };
-		06D6D4AF22D73AE9000AD750 /* BSChartDetailsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsDataSource.swift; sourceTree = "<group>"; };
-		06D6D4B122D73AE9000AD750 /* BSChartDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsCell.swift; sourceTree = "<group>"; };
-		06D6D4B222D73AE9000AD750 /* BSChartDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDetailsCell.xib; sourceTree = "<group>"; };
-		06D6D4B322D73AE9000AD750 /* BSChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartView.swift; sourceTree = "<group>"; };
-		06D6D4B422D73AE9000AD750 /* BSChartDetailsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsTableView.swift; sourceTree = "<group>"; };
-		06D6D4B522D73AE9000AD750 /* BSChartDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsView.swift; sourceTree = "<group>"; };
-		06D6D4B622D73AE9000AD750 /* BSChartDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDetailsView.xib; sourceTree = "<group>"; };
-		06D6D4B722D73AE9000AD750 /* BSChartDetailsDotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsDotView.swift; sourceTree = "<group>"; };
-		06D6D4B922D73AE9000AD750 /* BSChartTitlesFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesFlowLayout.swift; sourceTree = "<group>"; };
-		06D6D4BB22D73AE9000AD750 /* BSChartTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartTitleCell.xib; sourceTree = "<group>"; };
-		06D6D4BC22D73AE9000AD750 /* BSChartTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitleCell.swift; sourceTree = "<group>"; };
-		06D6D4BD22D73AE9000AD750 /* BSChartTitlesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesDataSource.swift; sourceTree = "<group>"; };
-		06D6D4BE22D73AE9000AD750 /* BSChartTitlesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesCollectionView.swift; sourceTree = "<group>"; };
-		06D6D4BF22D73AE9000AD750 /* BSCheckmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCheckmarkView.swift; sourceTree = "<group>"; };
-		06D6D4C122D73AE9000AD750 /* BSArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSArrowView.swift; sourceTree = "<group>"; };
-		06D6D4C222D73AE9000AD750 /* BSChartMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartMapView.swift; sourceTree = "<group>"; };
-		06D6D4C322D73AE9000AD750 /* BSChartMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartMapView.xib; sourceTree = "<group>"; };
-		06D6D4C622D73AE9000AD750 /* BSChartGridCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartGridCell.xib; sourceTree = "<group>"; };
-		06D6D4C722D73AE9000AD750 /* BSChartGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridCell.swift; sourceTree = "<group>"; };
-		06D6D4C822D73AE9000AD750 /* BSChartGridDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridDataSource.swift; sourceTree = "<group>"; };
-		06D6D4C922D73AE9000AD750 /* BSChartGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridView.swift; sourceTree = "<group>"; };
-		06D6D4CA22D73AE9000AD750 /* BSChartGridView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartGridView.xib; sourceTree = "<group>"; };
-		06D6D4CB22D73AE9000AD750 /* BSChartGridTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridTableView.swift; sourceTree = "<group>"; };
+		06B7383122D7D967002923BE /* BSJSONValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSJSONValue.swift; sourceTree = "<group>"; };
+		06B7383222D7D967002923BE /* BSChartAppNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartAppNotifications.swift; sourceTree = "<group>"; };
+		06B7383422D7D967002923BE /* BSChartDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDateCell.swift; sourceTree = "<group>"; };
+		06B7383522D7D967002923BE /* BSChartDatesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDatesCollectionView.swift; sourceTree = "<group>"; };
+		06B7383622D7D967002923BE /* BSChartDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDateCell.xib; sourceTree = "<group>"; };
+		06B7383722D7D967002923BE /* BSChartDatesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDatesView.xib; sourceTree = "<group>"; };
+		06B7383822D7D967002923BE /* BSChartDatesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDatesDataSource.swift; sourceTree = "<group>"; };
+		06B7383922D7D967002923BE /* BSChartDatesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDatesView.swift; sourceTree = "<group>"; };
+		06B7383A22D7D967002923BE /* BSChartObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartObject.swift; sourceTree = "<group>"; };
+		06B7383B22D7D967002923BE /* BSChartBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartBaseView.swift; sourceTree = "<group>"; };
+		06B7383D22D7D967002923BE /* BSChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartCell.swift; sourceTree = "<group>"; };
+		06B7383E22D7D967002923BE /* BSChartTitlesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartTitlesCell.xib; sourceTree = "<group>"; };
+		06B7383F22D7D967002923BE /* BSChartTitlesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesCell.swift; sourceTree = "<group>"; };
+		06B7384022D7D967002923BE /* BSChartBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartBaseCell.swift; sourceTree = "<group>"; };
+		06B7384122D7D967002923BE /* BSChartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartCell.xib; sourceTree = "<group>"; };
+		06B7384322D7D967002923BE /* BSChartDetailsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsDataSource.swift; sourceTree = "<group>"; };
+		06B7384422D7D967002923BE /* BSChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartView.swift; sourceTree = "<group>"; };
+		06B7384522D7D967002923BE /* BSChartDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsCell.swift; sourceTree = "<group>"; };
+		06B7384622D7D967002923BE /* BSChartDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDetailsCell.xib; sourceTree = "<group>"; };
+		06B7384722D7D967002923BE /* BSChartDetailsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsTableView.swift; sourceTree = "<group>"; };
+		06B7384822D7D967002923BE /* BSChartDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsView.swift; sourceTree = "<group>"; };
+		06B7384922D7D967002923BE /* BSChartDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartDetailsView.xib; sourceTree = "<group>"; };
+		06B7384A22D7D967002923BE /* BSChartDetailsDotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartDetailsDotView.swift; sourceTree = "<group>"; };
+		06B7384B22D7D967002923BE /* BSChartItemsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartItemsHelper.swift; sourceTree = "<group>"; };
+		06B7384D22D7D967002923BE /* BSChartTitlesFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesFlowLayout.swift; sourceTree = "<group>"; };
+		06B7384E22D7D967002923BE /* BSChartTitlesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesDataSource.swift; sourceTree = "<group>"; };
+		06B7384F22D7D967002923BE /* BSChartTitlesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitlesCollectionView.swift; sourceTree = "<group>"; };
+		06B7385022D7D967002923BE /* BSCheckmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCheckmarkView.swift; sourceTree = "<group>"; };
+		06B7385122D7D967002923BE /* BSChartTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartTitleCell.xib; sourceTree = "<group>"; };
+		06B7385222D7D967002923BE /* BSChartTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartTitleCell.swift; sourceTree = "<group>"; };
+		06B7385422D7D967002923BE /* BSArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSArrowView.swift; sourceTree = "<group>"; };
+		06B7385522D7D967002923BE /* BSChartMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartMapView.swift; sourceTree = "<group>"; };
+		06B7385622D7D967002923BE /* BSChartMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartMapView.xib; sourceTree = "<group>"; };
+		06B7385722D7D967002923BE /* BSColorModeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSColorModeManager.swift; sourceTree = "<group>"; };
+		06B7385922D7D967002923BE /* BSChartGridDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridDataSource.swift; sourceTree = "<group>"; };
+		06B7385A22D7D967002923BE /* BSChartGridCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartGridCell.xib; sourceTree = "<group>"; };
+		06B7385B22D7D967002923BE /* BSChartGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridView.swift; sourceTree = "<group>"; };
+		06B7385C22D7D967002923BE /* BSChartGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridCell.swift; sourceTree = "<group>"; };
+		06B7385D22D7D967002923BE /* BSChartGridView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSChartGridView.xib; sourceTree = "<group>"; };
+		06B7385E22D7D967002923BE /* BSChartGridTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartGridTableView.swift; sourceTree = "<group>"; };
 		06D6D4F422D73B02000AD750 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		06D6D4F722D73B02000AD750 /* overview5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overview5.json; sourceTree = "<group>"; };
 		06D6D4F822D73B02000AD750 /* overview4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overview4.json; sourceTree = "<group>"; };
@@ -131,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				06400780223673F80046A44D /* BSChart */,
-				06D6D49622D73AE9000AD750 /* BSChart */,
+				06B7383022D7D967002923BE /* BSChart */,
 				0640077F223673F80046A44D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -156,156 +158,100 @@
 			path = BSChart;
 			sourceTree = "<group>";
 		};
-		06D6D49622D73AE9000AD750 /* BSChart */ = {
+		06B7383022D7D967002923BE /* BSChart */ = {
 			isa = PBXGroup;
 			children = (
-				06D6D49722D73AE9000AD750 /* Model */,
-				06D6D49D22D73AE9000AD750 /* View */,
+				06B7383122D7D967002923BE /* BSJSONValue.swift */,
+				06B7383222D7D967002923BE /* BSChartAppNotifications.swift */,
+				06B7383322D7D967002923BE /* Dates */,
+				06B7383A22D7D967002923BE /* BSChartObject.swift */,
+				06B7383B22D7D967002923BE /* BSChartBaseView.swift */,
+				06B7383C22D7D967002923BE /* Chart */,
+				06B7384222D7D967002923BE /* Details */,
+				06B7384B22D7D967002923BE /* BSChartItemsHelper.swift */,
+				06B7384C22D7D967002923BE /* Titles */,
+				06B7385322D7D967002923BE /* Map */,
+				06B7385722D7D967002923BE /* BSColorModeManager.swift */,
+				06B7385822D7D967002923BE /* Grid */,
 			);
 			name = BSChart;
 			path = ../BSChart;
 			sourceTree = "<group>";
 		};
-		06D6D49722D73AE9000AD750 /* Model */ = {
+		06B7383322D7D967002923BE /* Dates */ = {
 			isa = PBXGroup;
 			children = (
-				06D6D49822D73AE9000AD750 /* BSJSONValue.swift */,
-				06D6D49922D73AE9000AD750 /* BSChartObject.swift */,
-				06D6D49A22D73AE9000AD750 /* BSChartItemsHelper.swift */,
-				06D6D49B22D73AE9000AD750 /* BSColorModeManager.swift */,
-				06D6D49C22D73AE9000AD750 /* BSChartAppNotifications.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		06D6D49D22D73AE9000AD750 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				06D6D49E22D73AE9000AD750 /* Dates */,
-				06D6D4A622D73AE9000AD750 /* BSChartBaseView.swift */,
-				06D6D4A722D73AE9000AD750 /* Chart */,
-				06D6D4AE22D73AE9000AD750 /* Details */,
-				06D6D4B822D73AE9000AD750 /* Titles */,
-				06D6D4C022D73AE9000AD750 /* Map */,
-				06D6D4C422D73AE9000AD750 /* Grid */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		06D6D49E22D73AE9000AD750 /* Dates */ = {
-			isa = PBXGroup;
-			children = (
-				06D6D49F22D73AE9000AD750 /* Cells */,
-				06D6D4A222D73AE9000AD750 /* BSChartDatesCollectionView.swift */,
-				06D6D4A322D73AE9000AD750 /* BSChartDatesView.xib */,
-				06D6D4A422D73AE9000AD750 /* BSChartDatesDataSource.swift */,
-				06D6D4A522D73AE9000AD750 /* BSChartDatesView.swift */,
+				06B7383422D7D967002923BE /* BSChartDateCell.swift */,
+				06B7383522D7D967002923BE /* BSChartDatesCollectionView.swift */,
+				06B7383622D7D967002923BE /* BSChartDateCell.xib */,
+				06B7383722D7D967002923BE /* BSChartDatesView.xib */,
+				06B7383822D7D967002923BE /* BSChartDatesDataSource.swift */,
+				06B7383922D7D967002923BE /* BSChartDatesView.swift */,
 			);
 			path = Dates;
 			sourceTree = "<group>";
 		};
-		06D6D49F22D73AE9000AD750 /* Cells */ = {
+		06B7383C22D7D967002923BE /* Chart */ = {
 			isa = PBXGroup;
 			children = (
-				06D6D4A022D73AE9000AD750 /* BSChartDateCell.swift */,
-				06D6D4A122D73AE9000AD750 /* BSChartDateCell.xib */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		06D6D4A722D73AE9000AD750 /* Chart */ = {
-			isa = PBXGroup;
-			children = (
-				06D6D4A822D73AE9000AD750 /* Cells */,
+				06B7383D22D7D967002923BE /* BSChartCell.swift */,
+				06B7383E22D7D967002923BE /* BSChartTitlesCell.xib */,
+				06B7383F22D7D967002923BE /* BSChartTitlesCell.swift */,
+				06B7384022D7D967002923BE /* BSChartBaseCell.swift */,
+				06B7384122D7D967002923BE /* BSChartCell.xib */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
 		};
-		06D6D4A822D73AE9000AD750 /* Cells */ = {
+		06B7384222D7D967002923BE /* Details */ = {
 			isa = PBXGroup;
 			children = (
-				06D6D4A922D73AE9000AD750 /* BSChartCell.swift */,
-				06D6D4AA22D73AE9000AD750 /* BSChartTitlesCell.xib */,
-				06D6D4AB22D73AE9000AD750 /* BSChartTitlesCell.swift */,
-				06D6D4AC22D73AE9000AD750 /* BSChartBaseCell.swift */,
-				06D6D4AD22D73AE9000AD750 /* BSChartCell.xib */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		06D6D4AE22D73AE9000AD750 /* Details */ = {
-			isa = PBXGroup;
-			children = (
-				06D6D4AF22D73AE9000AD750 /* BSChartDetailsDataSource.swift */,
-				06D6D4B022D73AE9000AD750 /* Cells */,
-				06D6D4B322D73AE9000AD750 /* BSChartView.swift */,
-				06D6D4B422D73AE9000AD750 /* BSChartDetailsTableView.swift */,
-				06D6D4B522D73AE9000AD750 /* BSChartDetailsView.swift */,
-				06D6D4B622D73AE9000AD750 /* BSChartDetailsView.xib */,
-				06D6D4B722D73AE9000AD750 /* BSChartDetailsDotView.swift */,
+				06B7384322D7D967002923BE /* BSChartDetailsDataSource.swift */,
+				06B7384422D7D967002923BE /* BSChartView.swift */,
+				06B7384522D7D967002923BE /* BSChartDetailsCell.swift */,
+				06B7384622D7D967002923BE /* BSChartDetailsCell.xib */,
+				06B7384722D7D967002923BE /* BSChartDetailsTableView.swift */,
+				06B7384822D7D967002923BE /* BSChartDetailsView.swift */,
+				06B7384922D7D967002923BE /* BSChartDetailsView.xib */,
+				06B7384A22D7D967002923BE /* BSChartDetailsDotView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
 		};
-		06D6D4B022D73AE9000AD750 /* Cells */ = {
+		06B7384C22D7D967002923BE /* Titles */ = {
 			isa = PBXGroup;
 			children = (
-				06D6D4B122D73AE9000AD750 /* BSChartDetailsCell.swift */,
-				06D6D4B222D73AE9000AD750 /* BSChartDetailsCell.xib */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		06D6D4B822D73AE9000AD750 /* Titles */ = {
-			isa = PBXGroup;
-			children = (
-				06D6D4B922D73AE9000AD750 /* BSChartTitlesFlowLayout.swift */,
-				06D6D4BA22D73AE9000AD750 /* Cells */,
-				06D6D4BD22D73AE9000AD750 /* BSChartTitlesDataSource.swift */,
-				06D6D4BE22D73AE9000AD750 /* BSChartTitlesCollectionView.swift */,
-				06D6D4BF22D73AE9000AD750 /* BSCheckmarkView.swift */,
+				06B7384D22D7D967002923BE /* BSChartTitlesFlowLayout.swift */,
+				06B7384E22D7D967002923BE /* BSChartTitlesDataSource.swift */,
+				06B7384F22D7D967002923BE /* BSChartTitlesCollectionView.swift */,
+				06B7385022D7D967002923BE /* BSCheckmarkView.swift */,
+				06B7385122D7D967002923BE /* BSChartTitleCell.xib */,
+				06B7385222D7D967002923BE /* BSChartTitleCell.swift */,
 			);
 			path = Titles;
 			sourceTree = "<group>";
 		};
-		06D6D4BA22D73AE9000AD750 /* Cells */ = {
+		06B7385322D7D967002923BE /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				06D6D4BB22D73AE9000AD750 /* BSChartTitleCell.xib */,
-				06D6D4BC22D73AE9000AD750 /* BSChartTitleCell.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		06D6D4C022D73AE9000AD750 /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				06D6D4C122D73AE9000AD750 /* BSArrowView.swift */,
-				06D6D4C222D73AE9000AD750 /* BSChartMapView.swift */,
-				06D6D4C322D73AE9000AD750 /* BSChartMapView.xib */,
+				06B7385422D7D967002923BE /* BSArrowView.swift */,
+				06B7385522D7D967002923BE /* BSChartMapView.swift */,
+				06B7385622D7D967002923BE /* BSChartMapView.xib */,
 			);
 			path = Map;
 			sourceTree = "<group>";
 		};
-		06D6D4C422D73AE9000AD750 /* Grid */ = {
+		06B7385822D7D967002923BE /* Grid */ = {
 			isa = PBXGroup;
 			children = (
-				06D6D4C522D73AE9000AD750 /* Cells */,
-				06D6D4C822D73AE9000AD750 /* BSChartGridDataSource.swift */,
-				06D6D4C922D73AE9000AD750 /* BSChartGridView.swift */,
-				06D6D4CA22D73AE9000AD750 /* BSChartGridView.xib */,
-				06D6D4CB22D73AE9000AD750 /* BSChartGridTableView.swift */,
+				06B7385922D7D967002923BE /* BSChartGridDataSource.swift */,
+				06B7385A22D7D967002923BE /* BSChartGridCell.xib */,
+				06B7385B22D7D967002923BE /* BSChartGridView.swift */,
+				06B7385C22D7D967002923BE /* BSChartGridCell.swift */,
+				06B7385D22D7D967002923BE /* BSChartGridView.xib */,
+				06B7385E22D7D967002923BE /* BSChartGridTableView.swift */,
 			);
 			path = Grid;
-			sourceTree = "<group>";
-		};
-		06D6D4C522D73AE9000AD750 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				06D6D4C622D73AE9000AD750 /* BSChartGridCell.xib */,
-				06D6D4C722D73AE9000AD750 /* BSChartGridCell.swift */,
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		06D6D4F622D73B02000AD750 /* Resources */ = {
@@ -398,22 +344,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06B7386422D7D967002923BE /* BSChartDatesView.xib in Resources */,
 				06D6D51222D73B02000AD750 /* overview1.json in Resources */,
-				06D6D4D422D73AEA000AD750 /* BSChartDatesView.xib in Resources */,
+				06B7387122D7D967002923BE /* BSChartDetailsCell.xib in Resources */,
+				06B7387F22D7D967002923BE /* BSChartMapView.xib in Resources */,
+				06B7382F22D7D8D3002923BE /* overview3.json in Resources */,
+				06B7386D22D7D967002923BE /* BSChartCell.xib in Resources */,
 				06D6D50C22D73B02000AD750 /* overview4.json in Resources */,
-				06D6D4E622D73AEA000AD750 /* BSChartTitleCell.xib in Resources */,
 				06D6D51022D73B02000AD750 /* Assets.xcassets in Resources */,
+				06B7386322D7D967002923BE /* BSChartDateCell.xib in Resources */,
 				06D6D50B22D73B02000AD750 /* overview5.json in Resources */,
-				06D6D4ED22D73AEA000AD750 /* BSChartMapView.xib in Resources */,
-				06D6D4DF22D73AEA000AD750 /* BSChartDetailsCell.xib in Resources */,
 				06D6D51A22D73DFB000AD750 /* Main.storyboard in Resources */,
-				06D6D4F222D73AEA000AD750 /* BSChartGridView.xib in Resources */,
-				06D6D4EE22D73AEA000AD750 /* BSChartGridCell.xib in Resources */,
-				06D6D4D222D73AEA000AD750 /* BSChartDateCell.xib in Resources */,
-				06D6D4D922D73AEA000AD750 /* BSChartTitlesCell.xib in Resources */,
+				06B7386A22D7D967002923BE /* BSChartTitlesCell.xib in Resources */,
+				06B7387B22D7D967002923BE /* BSChartTitleCell.xib in Resources */,
+				06B7387422D7D967002923BE /* BSChartDetailsView.xib in Resources */,
+				06B7382E22D7D8D3002923BE /* overview2.json in Resources */,
+				06B7388222D7D967002923BE /* BSChartGridCell.xib in Resources */,
+				06B7388522D7D967002923BE /* BSChartGridView.xib in Resources */,
 				06D6D51B22D73DFE000AD750 /* LaunchScreen.storyboard in Resources */,
-				06D6D4DC22D73AEA000AD750 /* BSChartCell.xib in Resources */,
-				06D6D4E322D73AEA000AD750 /* BSChartDetailsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,40 +372,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06D6D4F322D73AEA000AD750 /* BSChartGridTableView.swift in Sources */,
-				06D6D4F122D73AEA000AD750 /* BSChartGridView.swift in Sources */,
-				06D6D4D722D73AEA000AD750 /* BSChartBaseView.swift in Sources */,
-				06D6D4D122D73AEA000AD750 /* BSChartDateCell.swift in Sources */,
-				06D6D4EB22D73AEA000AD750 /* BSArrowView.swift in Sources */,
+				06B7386622D7D967002923BE /* BSChartDatesView.swift in Sources */,
+				06B7388622D7D967002923BE /* BSChartGridTableView.swift in Sources */,
+				06B7386F22D7D967002923BE /* BSChartView.swift in Sources */,
+				06B7386E22D7D967002923BE /* BSChartDetailsDataSource.swift in Sources */,
+				06B7387E22D7D967002923BE /* BSChartMapView.swift in Sources */,
+				06B7386722D7D967002923BE /* BSChartObject.swift in Sources */,
+				06B7388422D7D967002923BE /* BSChartGridCell.swift in Sources */,
+				06B7387722D7D967002923BE /* BSChartTitlesFlowLayout.swift in Sources */,
 				06D6D51422D73B02000AD750 /* BSChartTableView.swift in Sources */,
-				06D6D4CD22D73AEA000AD750 /* BSChartObject.swift in Sources */,
-				06D6D4E222D73AEA000AD750 /* BSChartDetailsView.swift in Sources */,
-				06D6D4DB22D73AEA000AD750 /* BSChartBaseCell.swift in Sources */,
-				06D6D4E822D73AEA000AD750 /* BSChartTitlesDataSource.swift in Sources */,
-				06D6D4DE22D73AEA000AD750 /* BSChartDetailsCell.swift in Sources */,
-				06D6D4EC22D73AEA000AD750 /* BSChartMapView.swift in Sources */,
-				06D6D4D822D73AEA000AD750 /* BSChartCell.swift in Sources */,
-				06D6D4E022D73AEA000AD750 /* BSChartView.swift in Sources */,
-				06D6D4EF22D73AEA000AD750 /* BSChartGridCell.swift in Sources */,
-				06D6D4CE22D73AEA000AD750 /* BSChartItemsHelper.swift in Sources */,
-				06D6D4E122D73AEA000AD750 /* BSChartDetailsTableView.swift in Sources */,
-				06D6D4E722D73AEA000AD750 /* BSChartTitleCell.swift in Sources */,
-				06D6D4F022D73AEA000AD750 /* BSChartGridDataSource.swift in Sources */,
-				06D6D4DD22D73AEA000AD750 /* BSChartDetailsDataSource.swift in Sources */,
-				06D6D4D322D73AEA000AD750 /* BSChartDatesCollectionView.swift in Sources */,
-				06D6D4CF22D73AEA000AD750 /* BSColorModeManager.swift in Sources */,
-				06D6D4D522D73AEA000AD750 /* BSChartDatesDataSource.swift in Sources */,
+				06B7388022D7D967002923BE /* BSColorModeManager.swift in Sources */,
+				06B7385F22D7D967002923BE /* BSJSONValue.swift in Sources */,
+				06B7386122D7D967002923BE /* BSChartDateCell.swift in Sources */,
+				06B7386022D7D967002923BE /* BSChartAppNotifications.swift in Sources */,
+				06B7388122D7D967002923BE /* BSChartGridDataSource.swift in Sources */,
+				06B7387622D7D967002923BE /* BSChartItemsHelper.swift in Sources */,
+				06B7386C22D7D967002923BE /* BSChartBaseCell.swift in Sources */,
+				06B7387922D7D967002923BE /* BSChartTitlesCollectionView.swift in Sources */,
+				06B7386222D7D967002923BE /* BSChartDatesCollectionView.swift in Sources */,
+				06B7386922D7D967002923BE /* BSChartCell.swift in Sources */,
+				06B7386522D7D967002923BE /* BSChartDatesDataSource.swift in Sources */,
+				06B7387D22D7D967002923BE /* BSArrowView.swift in Sources */,
 				06D6D50922D73B02000AD750 /* AppDelegate.swift in Sources */,
+				06B7387C22D7D967002923BE /* BSChartTitleCell.swift in Sources */,
+				06B7387822D7D967002923BE /* BSChartTitlesDataSource.swift in Sources */,
+				06B7387A22D7D967002923BE /* BSCheckmarkView.swift in Sources */,
+				06B7386B22D7D967002923BE /* BSChartTitlesCell.swift in Sources */,
+				06B7388322D7D967002923BE /* BSChartGridView.swift in Sources */,
+				06B7386822D7D967002923BE /* BSChartBaseView.swift in Sources */,
+				06B7387522D7D967002923BE /* BSChartDetailsDotView.swift in Sources */,
 				06D6D51522D73B02000AD750 /* BSChartDataSource.swift in Sources */,
-				06D6D4DA22D73AEA000AD750 /* BSChartTitlesCell.swift in Sources */,
-				06D6D4D622D73AEA000AD750 /* BSChartDatesView.swift in Sources */,
-				06D6D4E922D73AEA000AD750 /* BSChartTitlesCollectionView.swift in Sources */,
-				06D6D4CC22D73AEA000AD750 /* BSJSONValue.swift in Sources */,
-				06D6D4D022D73AEA000AD750 /* BSChartAppNotifications.swift in Sources */,
+				06B7387022D7D967002923BE /* BSChartDetailsCell.swift in Sources */,
 				06D6D51322D73B02000AD750 /* BSChartViewController.swift in Sources */,
-				06D6D4E422D73AEA000AD750 /* BSChartDetailsDotView.swift in Sources */,
-				06D6D4EA22D73AEA000AD750 /* BSCheckmarkView.swift in Sources */,
-				06D6D4E522D73AEA000AD750 /* BSChartTitlesFlowLayout.swift in Sources */,
+				06B7387222D7D967002923BE /* BSChartDetailsTableView.swift in Sources */,
+				06B7387322D7D967002923BE /* BSChartDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
