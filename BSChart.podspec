@@ -1,20 +1,17 @@
-Pod::Spec.new do |spec|
-  spec.name         = 'BSChart'
-  spec.version      = '1.0.2'
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
-  spec.homepage     = 'https://github.com/iBlacksus/BSChart'
-  spec.authors      = { 'iBlacksus' => 'iblacksus@gmail.com' }
-  spec.summary      = 'BSChart is a simple and useful chart library written on Swift'
-  spec.source       = { :git => 'https://github.com/iBlacksus/BSChart.git', :tag => spec.version }
-  spec.screenshots 	= "https://raw.githubusercontent.com/iBlacksus/BSChart/master/ReadmeResources/demo1.jpg"
-  spec.source_files = 'BSChart', 'BSChart/**/*.{swift}'
-  spec.resource_bundles = {
-    'BSChart' => [
-      'BSChart/**/*.xib'
-    ]
-  }
-  spec.requires_arc = true
-  spec.ios.deployment_target  = '10.0'
-  spec.ios.framework  = 'UIKit'
-  spec.swift_versions = '5.0'
+Pod::Spec.new do |s|
+  s.name         = 'BSChart'
+  s.version      = '1.0.3'
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage     = 'https://github.com/iBlacksus/BSChart'
+  s.authors      = { 'iBlacksus' => 'iblacksus@gmail.com' }
+  s.summary      = 'BSChart is a simple and useful chart library written on Swift'
+  s.source       = { :git => 'https://github.com/iBlacksus/BSChart.git', :tag => s.version }
+  s.screenshots 	= "https://raw.githubusercontent.com/iBlacksus/BSChart/master/ReadmeResources/demo1.jpg"
+  s.source_files = 'BSChart/**/*.{swift}'
+  s.resources = 'BSChart/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
+  s.requires_arc = true
+  s.platform = :ios
+  s.ios.deployment_target  = '10.0'
+  s.framework  = 'UIKit'
+  s.swift_versions = '5.0'
 end
