@@ -1,6 +1,6 @@
 //
-//  BSChart.swift
-//  BSChart
+//  BSChartObject.swift
+//  BSChartObject
 //
 //  Created by iBlacksus on 3/11/19.
 //  Copyright © 2019 iBlacksus. All rights reserved.
@@ -49,7 +49,7 @@ class BSChartItem: NSObject {
     }
 }
 
-class BSChart: Decodable {
+class BSChartObject: Decodable {
     private let columns: [[BSJSONValue]]?
     private let types: [String:String]?
     private let names: [String:String]?

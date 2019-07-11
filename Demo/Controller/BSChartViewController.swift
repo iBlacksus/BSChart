@@ -8,7 +8,7 @@
 
 import UIKit
 
-typealias BSChartList = [BSChart]
+typealias BSChartList = [BSChartObject]
 
 class BSChartViewController: UIViewController {
 
@@ -147,7 +147,7 @@ class BSChartViewController: UIViewController {
             
             do {
                 let data = try Data(contentsOf: url)
-                let chart = try JSONDecoder().decode(BSChart.self, from: data)
+                let chart = try JSONDecoder().decode(BSChartObject.self, from: data)
                 
                 if !chart.generateItems() {
                     NSLog("Error in chart")

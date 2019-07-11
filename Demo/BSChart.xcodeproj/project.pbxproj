@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06D6D4CC22D73AEA000AD750 /* BSJSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49822D73AE9000AD750 /* BSJSONValue.swift */; };
-		06D6D4CD22D73AEA000AD750 /* BSChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49922D73AE9000AD750 /* BSChart.swift */; };
+		06D6D4CD22D73AEA000AD750 /* BSChartObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49922D73AE9000AD750 /* BSChartObject.swift */; };
 		06D6D4CE22D73AEA000AD750 /* BSChartItemsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49A22D73AE9000AD750 /* BSChartItemsHelper.swift */; };
 		06D6D4CF22D73AEA000AD750 /* BSColorModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49B22D73AE9000AD750 /* BSColorModeManager.swift */; };
 		06D6D4D022D73AEA000AD750 /* BSChartAppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D49C22D73AE9000AD750 /* BSChartAppNotifications.swift */; };
@@ -62,7 +62,7 @@
 /* Begin PBXFileReference section */
 		0640077E223673F80046A44D /* BSChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D6D49822D73AE9000AD750 /* BSJSONValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSJSONValue.swift; sourceTree = "<group>"; };
-		06D6D49922D73AE9000AD750 /* BSChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChart.swift; sourceTree = "<group>"; };
+		06D6D49922D73AE9000AD750 /* BSChartObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartObject.swift; sourceTree = "<group>"; };
 		06D6D49A22D73AE9000AD750 /* BSChartItemsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartItemsHelper.swift; sourceTree = "<group>"; };
 		06D6D49B22D73AE9000AD750 /* BSColorModeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSColorModeManager.swift; sourceTree = "<group>"; };
 		06D6D49C22D73AE9000AD750 /* BSChartAppNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSChartAppNotifications.swift; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				06D6D49822D73AE9000AD750 /* BSJSONValue.swift */,
-				06D6D49922D73AE9000AD750 /* BSChart.swift */,
+				06D6D49922D73AE9000AD750 /* BSChartObject.swift */,
 				06D6D49A22D73AE9000AD750 /* BSChartItemsHelper.swift */,
 				06D6D49B22D73AE9000AD750 /* BSColorModeManager.swift */,
 				06D6D49C22D73AE9000AD750 /* BSChartAppNotifications.swift */,
@@ -430,7 +430,7 @@
 				06D6D4D122D73AEA000AD750 /* BSChartDateCell.swift in Sources */,
 				06D6D4EB22D73AEA000AD750 /* BSArrowView.swift in Sources */,
 				06D6D51422D73B02000AD750 /* BSChartTableView.swift in Sources */,
-				06D6D4CD22D73AEA000AD750 /* BSChart.swift in Sources */,
+				06D6D4CD22D73AEA000AD750 /* BSChartObject.swift in Sources */,
 				06D6D4E222D73AEA000AD750 /* BSChartDetailsView.swift in Sources */,
 				06D6D4DB22D73AEA000AD750 /* BSChartBaseCell.swift in Sources */,
 				06D6D4E822D73AEA000AD750 /* BSChartTitlesDataSource.swift in Sources */,
