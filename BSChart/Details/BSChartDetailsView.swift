@@ -55,8 +55,8 @@ class BSChartDetailsView: BSChartBaseView, UIGestureRecognizerDelegate {
             return
         }
         
-        self.isBar = item.type == "bar"
-        self.isArea = item.type == "area"
+        self.isBar = item.type == .bar
+        self.isArea = item.type == .area
         self.percentage = item.percentage
         self.stacked = item.stacked
         let recreateDots = self.items.count != items.count
@@ -175,7 +175,7 @@ class BSChartDetailsView: BSChartBaseView, UIGestureRecognizerDelegate {
         var values: Array<Int> = []
         var colors: Array<UIColor> = []
         for item in self.items {
-            index += item.type == "x" ? 0 : 1
+            index += item.type == .x ? 0 : 1
             
             guard let column = item.column else {
                 continue
@@ -184,7 +184,7 @@ class BSChartDetailsView: BSChartBaseView, UIGestureRecognizerDelegate {
             var columnIndex = Int((CGFloat(column.count - 1) / self.frame.width * xLine).rounded(.toNearestOrEven))
             columnIndex = Swift.max(Swift.min(columnIndex, column.count - 1), 0)
             
-            if item.type == "x" {
+            if item.type == .x {
                 let date = Date(timeIntervalSince1970: TimeInterval(column[columnIndex]) / 1000.0)
                 let dateFormatter = DateFormatter()
                 dateFormatter.dateFormat = "EEE, dd MMM yyyy"

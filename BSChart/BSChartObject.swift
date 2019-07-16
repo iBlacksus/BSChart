@@ -123,8 +123,8 @@ class BSChartObject: Decodable {
             item.name = ""
         }
         
-        if self.types != nil {
-            item.type = self.types![key]
+        if let types = self.types, let value = types[key], let type = BSType(rawValue: value) {
+            item.type = type
         }
         
         if self.colors == nil {

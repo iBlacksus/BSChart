@@ -199,7 +199,7 @@ class BSChartCell: BSChartBaseCell {
         
         var items: Array<BSChartItem> = []
         for item in self.items {
-            if !self.enabledItems.contains(item.key) && item.type != "x" {
+            if !self.enabledItems.contains(item.key) && item.type != .x {
                 continue
             }
             

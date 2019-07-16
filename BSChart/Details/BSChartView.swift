@@ -140,7 +140,7 @@ class BSChartView: BSChartBaseView {
                 self.shapeLayers[item.key] = layer
             }
             
-            if item.type == "bar" || item.type == "area" {
+            if item.type == .bar || item.type == .area {
                 layer.fillColor = item.color!.cgColor
                 layer.strokeColor = UIColor.clear.cgColor
             }
@@ -321,7 +321,7 @@ class BSChartView: BSChartBaseView {
         return path
     }
     
-    private func drawColumn(_ column: [Int], index: Int, type: String?, stacked: Bool, isLast: Bool) -> UIBezierPath {
+    private func drawColumn(_ column: [Int], index: Int, type: BSType?, stacked: Bool, isLast: Bool) -> UIBezierPath {
         guard let type = type else {
             return UIBezierPath()
         }
@@ -331,13 +331,13 @@ class BSChartView: BSChartBaseView {
         }
         
         switch type {
-        case "line":
+        case .line:
             return self.drawLineColumn(column, index: index)
             
-        case "bar":
+        case .bar:
             return stacked ? self.drawStackedBarColumn(column) : self.drawBarColumn(column)
             
-        case "area":
+        case .area:
             return self.drawAreaColumn(column, isLast: isLast)
             
         default:
@@ -493,7 +493,7 @@ class BSChartView: BSChartBaseView {
         return path
     }
     
-    private func drawLine(_ column: [Int], index: Int, type: String?) -> UIBezierPath {
+    private func drawLine(_ column: [Int], index: Int, type: BSType?) -> UIBezierPath {
         guard let type = type else {
             return UIBezierPath()
         }
@@ -517,7 +517,7 @@ class BSChartView: BSChartBaseView {
         let step = self.frame.size.width / CGFloat(column.count)
         var y = height - CGFloat(column.first!) * factor + CGFloat(min) * factor
         
-        if type == "line" {
+        if type == .line {
             path.move(to: CGPoint(x: 0, y: y))
         }
         
@@ -525,13 +525,13 @@ class BSChartView: BSChartBaseView {
         for index in 0...column.count - 1 {
             let x = CGFloat(index) * step + self.offset
             
-            if type == "bar" {
+            if type == .bar {
                 path.move(to: CGPoint(x: x, y: height))
             }
             
             path.addLine(to: CGPoint(x: x, y: y))
             
-            if type == "bar" {
+            if type == .bar {
                 path.addLine(to: CGPoint(x: x + step, y: y))
                 path.addLine(to: CGPoint(x: x + step, y: height))
                 path.close()

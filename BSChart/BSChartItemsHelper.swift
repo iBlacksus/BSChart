@@ -31,7 +31,7 @@ class BSChartItemsHelper: NSObject {
             for index in 0...firstItemColumn.count - 1 {
                 var sum = 0
                 for item in items {
-                    if item.type == "x" {
+                    if item.type == .x {
                         continue
                     }
                     
@@ -53,7 +53,7 @@ class BSChartItemsHelper: NSObject {
         }
         else {
             for item in items {
-                if item.type == "x" {
+                if item.type == .x {
                     continue
                 }
                 
@@ -94,7 +94,7 @@ class BSChartItemsHelper: NSObject {
         var lineItems: Array<BSChartItem> = []
         
         for item in items {
-            if item.type == "x" {
+            if item.type == .x {
                 continue
             }
             
@@ -106,7 +106,7 @@ class BSChartItemsHelper: NSObject {
     
     class func getXItem(_ items: Array<BSChartItem>) -> BSChartItem? {
         for item in items {
-            if item.type == "x" {
+            if item.type == .x {
                 return item
             }
         }
