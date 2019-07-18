@@ -8,47 +8,6 @@
 
 import UIKit
 
-class BSChartItem: NSObject {
-    public var key: String!
-    public var name: String!
-    public var type: String?
-    public var color: UIColor!
-    public var column: [Int]?
-    public var yScaled: Bool!
-    public var percentage: Bool!
-    public var stacked: Bool!
-    public var single: Bool!
-    public var index: Int!
-    
-    func copy(item: BSChartItem, start: Int, count: Int) {
-        self.key = item.key
-        self.name = item.name
-        self.type = item.type
-        self.color = item.color
-        self.yScaled = item.yScaled
-        self.percentage = item.percentage
-        self.stacked = item.stacked
-        self.single = item.single
-        self.index = item.index
-        
-        guard let column = item.column else {
-            return
-        }
-        
-        var startIndex = start
-        if startIndex < 0 {
-            startIndex = 0
-        }
-        
-        var endIndex = startIndex + count
-        if endIndex > column.count {
-            endIndex = column.count
-        }
-        
-        self.column = Array(column[startIndex..<endIndex])
-    }
-}
-
 class BSChartObject: Decodable {
     private let columns: [[BSJSONValue]]?
     private let types: [String:String]?
@@ -58,7 +17,6 @@ class BSChartObject: Decodable {
     private var percentage: Bool?
     private var stacked: Bool?
     public var items: [BSChartItem] = []
-    
     enum CodingKeys: String, CodingKey {
         case columns = "columns"
         case types = "types"
@@ -123,8 +81,8 @@ class BSChartObject: Decodable {
             item.name = ""
         }
         
-        if self.types != nil {
-            item.type = self.types![key]
+        if let types = self.types, let value = types[key], let type = BSType(rawValue: value) {
+            item.type = type
         }
         
         if self.colors == nil {
@@ -132,12 +90,11 @@ class BSChartObject: Decodable {
         }
         
         if self.colors![key] != nil {
-            item.color = self.hexStringToUIColor(self.colors![key]!)
+            item.color = UIColor.init(hexString: self.colors![key]!) ?? UIColor.gray
         }
         else {
             item.color = .black
         }
-        
         
         item.column = []
         let intColumn = Array(column[1..<column.endIndex])
@@ -149,27 +106,5 @@ class BSChartObject: Decodable {
         }
         
         return item
-    }
-    
-    func hexStringToUIColor (_ hex:String) -> UIColor {
-        var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
-        
-        if (cString.hasPrefix("#")) {
-            cString.remove(at: cString.startIndex)
-        }
-        
-        if ((cString.count) != 6) {
-            return UIColor.gray
-        }
-        
-        var rgbValue:UInt32 = 0
-        Scanner(string: cString).scanHexInt32(&rgbValue)
-        
-        return UIColor(
-            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
-            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
-            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
-            alpha: CGFloat(1.0)
-        )
     }
 }

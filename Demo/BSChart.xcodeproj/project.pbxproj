@@ -59,6 +59,9 @@
 		06D6D51522D73B02000AD750 /* BSChartDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6D50322D73B02000AD750 /* BSChartDataSource.swift */; };
 		06D6D51A22D73DFB000AD750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D50722D73B02000AD750 /* Main.storyboard */; };
 		06D6D51B22D73DFE000AD750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D6D50522D73B02000AD750 /* LaunchScreen.storyboard */; };
+		D3FC562022DE4E430063F370 /* BSType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC561F22DE4E430063F370 /* BSType.swift */; };
+		D3FC562222DE4E920063F370 /* BSChartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC562122DE4E920063F370 /* BSChartItem.swift */; };
+		D3FC562522DE58980063F370 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC562422DE58980063F370 /* UIColor+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +119,9 @@
 		06D6D50622D73B02000AD750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06D6D50822D73B02000AD750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06D6D51D22D73F41000AD750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		D3FC561F22DE4E430063F370 /* BSType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSType.swift; sourceTree = "<group>"; };
+		D3FC562122DE4E920063F370 /* BSChartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSChartItem.swift; sourceTree = "<group>"; };
+		D3FC562422DE58980063F370 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,10 +167,10 @@
 		06B7383022D7D967002923BE /* BSChart */ = {
 			isa = PBXGroup;
 			children = (
-				06B7383122D7D967002923BE /* BSJSONValue.swift */,
+				D3FC562322DE4EC40063F370 /* Extensions */,
+				D3FC561E22DE4E250063F370 /* DataObjects */,
 				06B7383222D7D967002923BE /* BSChartAppNotifications.swift */,
 				06B7383322D7D967002923BE /* Dates */,
-				06B7383A22D7D967002923BE /* BSChartObject.swift */,
 				06B7383B22D7D967002923BE /* BSChartBaseView.swift */,
 				06B7383C22D7D967002923BE /* Chart */,
 				06B7384222D7D967002923BE /* Details */,
@@ -286,6 +292,25 @@
 			path = UI;
 			sourceTree = SOURCE_ROOT;
 		};
+		D3FC561E22DE4E250063F370 /* DataObjects */ = {
+			isa = PBXGroup;
+			children = (
+				06B7383122D7D967002923BE /* BSJSONValue.swift */,
+				06B7383A22D7D967002923BE /* BSChartObject.swift */,
+				D3FC561F22DE4E430063F370 /* BSType.swift */,
+				D3FC562122DE4E920063F370 /* BSChartItem.swift */,
+			);
+			path = DataObjects;
+			sourceTree = "<group>";
+		};
+		D3FC562322DE4EC40063F370 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC562422DE58980063F370 /* UIColor+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -373,10 +398,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				06B7386622D7D967002923BE /* BSChartDatesView.swift in Sources */,
+				D3FC562022DE4E430063F370 /* BSType.swift in Sources */,
 				06B7388622D7D967002923BE /* BSChartGridTableView.swift in Sources */,
 				06B7386F22D7D967002923BE /* BSChartView.swift in Sources */,
 				06B7386E22D7D967002923BE /* BSChartDetailsDataSource.swift in Sources */,
 				06B7387E22D7D967002923BE /* BSChartMapView.swift in Sources */,
+				D3FC562222DE4E920063F370 /* BSChartItem.swift in Sources */,
 				06B7386722D7D967002923BE /* BSChartObject.swift in Sources */,
 				06B7388422D7D967002923BE /* BSChartGridCell.swift in Sources */,
 				06B7387722D7D967002923BE /* BSChartTitlesFlowLayout.swift in Sources */,
@@ -396,6 +423,7 @@
 				06D6D50922D73B02000AD750 /* AppDelegate.swift in Sources */,
 				06B7387C22D7D967002923BE /* BSChartTitleCell.swift in Sources */,
 				06B7387822D7D967002923BE /* BSChartTitlesDataSource.swift in Sources */,
+				D3FC562522DE58980063F370 /* UIColor+Hex.swift in Sources */,
 				06B7387A22D7D967002923BE /* BSCheckmarkView.swift in Sources */,
 				06B7386B22D7D967002923BE /* BSChartTitlesCell.swift in Sources */,
 				06B7388322D7D967002923BE /* BSChartGridView.swift in Sources */,

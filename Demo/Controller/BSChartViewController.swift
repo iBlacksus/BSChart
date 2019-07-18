@@ -65,13 +65,13 @@ class BSChartViewController: UIViewController {
                     break
                 }
                 
-                if item.type == "x" {
+                if item.type == .x {
                     xFound = true
                 }
-                
-                if item.type == "x" || item.type == "line" || item.type == "bar" || item.type == "area" {
+                if item.type != nil {
                     items.append(item)
                 }
+
             }
             
             if skip || items.count == 0 || !xFound {
