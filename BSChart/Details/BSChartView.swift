@@ -135,7 +135,7 @@ class BSChartView: BSChartBaseView {
                 layer = CAShapeLayer()
                 layer.path = path.cgPath
                 layer.lineWidth = self.isMiniMap ? 0.5 : 1.5
-                layer.lineCap = CAShapeLayerLineCap.round
+                layer.lineCap = .round
                 
                 self.shapeLayers[item.key] = layer
             }
