@@ -70,6 +70,7 @@ class BSChartDatesView: BSChartBaseView {
             if start <= lastStart {
                 start = CGFloat(lastStart) + 1.0
             }
+            start = min(start, CGFloat(column.count))
             lastStart = start
             var end = (start + step).rounded(.up)
             end = min(end, CGFloat(column.count))
