@@ -71,6 +71,9 @@ class BSChartTitlesFlowLayout: UICollectionViewFlowLayout {
             default:
                 break
             }
+            
+        default:
+            break
         }
         
         return trivialMapping[horizontalAlignment]!

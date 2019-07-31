@@ -22,6 +22,8 @@ class BSChartDetailsCell: BSChartBaseCell {
     @IBOutlet var percentWidthConstraint: NSLayoutConstraint!
     
     func configure(name: String, value: Int, color: UIColor, percentage: Bool = false, sum: Int = 1) {
+        let sum = max(sum, 1)
+        
         self.backgroundColor = BSColorModeManager.shared.colorForItem(.chartDetailsBackground)
         self.contentView.backgroundColor = BSColorModeManager.shared.colorForItem(.chartDetailsBackground)
         

@@ -59,7 +59,7 @@ class BSChartGridView: BSChartBaseView {
         self.chartDetailsView = (UINib(nibName: BSChartDetailsView.identifier, bundle: nil).instantiate(withOwner: self, options: nil)[0] as! BSChartDetailsView)
         self.addSubview(self.chartDetailsView)
         
-        let views: [String: Any] = ["chartDetailsView": self.chartDetailsView]
+        let views: [String: Any] = ["chartDetailsView": self.chartDetailsView!]
         
         var allConstraints: [NSLayoutConstraint] = []
         

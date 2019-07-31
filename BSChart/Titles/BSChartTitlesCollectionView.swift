@@ -58,7 +58,7 @@ class BSChartTitlesCollectionView: UICollectionView, UICollectionViewDelegate, U
                 return
             }
             
-            let index = enabledItems.index(of: item.key)
+            let index = enabledItems.firstIndex(of: item.key)
             enabledItems.remove(at: index!)
             cell.enable(false)
         }
@@ -69,6 +69,6 @@ class BSChartTitlesCollectionView: UICollectionView, UICollectionViewDelegate, U
         
         self.chartTitlesDataSource.enabledItems = enabledItems
         
-        NotificationCenter.default.post(name: .chartEnabledItemsChanged, object: nil, userInfo: ["section": self.section, "items": enabledItems])
+        NotificationCenter.default.post(name: .chartEnabledItemsChanged, object: nil, userInfo: ["section": self.section!, "items": enabledItems])
     }
 }

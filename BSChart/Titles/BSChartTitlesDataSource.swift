@@ -49,7 +49,7 @@ class BSChartTitlesDataSource: NSObject, UICollectionViewDataSource {
             cell.enable(i == row)
         }
         
-        NotificationCenter.default.post(name: .chartEnabledItemsChanged, object: nil, userInfo: ["section": self.collectionView.section, "items": self.enabledItems])
+        NotificationCenter.default.post(name: .chartEnabledItemsChanged, object: nil, userInfo: ["section": self.collectionView.section!, "items": self.enabledItems])
     }
 
 }

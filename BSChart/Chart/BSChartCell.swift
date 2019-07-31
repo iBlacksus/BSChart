@@ -70,9 +70,9 @@ class BSChartCell: BSChartBaseCell {
         self.addSubview(self.mapView)
         
         let views: [String: Any] = [
-            "gridView": self.gridView,
-            "datesView": self.datesView,
-            "mapView": self.mapView]
+            "gridView": self.gridView!,
+            "datesView": self.datesView!,
+            "mapView": self.mapView!]
         
         var allConstraints: [NSLayoutConstraint] = []
         
