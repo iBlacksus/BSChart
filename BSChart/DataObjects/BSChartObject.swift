@@ -16,6 +16,7 @@ class BSChartObject: Decodable {
     private var yScaled: Bool?
     private var percentage: Bool?
     private var stacked: Bool?
+    private var sum: Bool?
     public var items: [BSChartItem] = []
     enum CodingKeys: String, CodingKey {
         case columns = "columns"
@@ -25,6 +26,7 @@ class BSChartObject: Decodable {
         case yScaled = "y_scaled"
         case percentage = "percentage"
         case stacked = "stacked"
+        case sum = "sum"
     }
     
     func generateItems() -> Bool {
@@ -60,6 +62,7 @@ class BSChartObject: Decodable {
         item.yScaled = false
         item.percentage = false
         item.stacked = false
+        item.sum = false
         item.index = index
         
         if self.yScaled != nil {
@@ -72,6 +75,10 @@ class BSChartObject: Decodable {
         
         if self.stacked != nil {
             item.stacked = self.stacked!
+        }
+        
+        if self.sum != nil {
+            item.sum = self.sum!
         }
         
         if self.names != nil {

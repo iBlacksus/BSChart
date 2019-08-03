@@ -458,8 +458,13 @@ class BSChartView: BSChartBaseView {
         path.move(to: CGPoint(x: 0, y: bottomY))
         
         for item in column {
-            let sum = self.sumColumn[itemIndex]
-            let percent: CGFloat = CGFloat(item) / CGFloat(sum) * 100.0
+            var sum = 0
+            var percent: CGFloat = 0.0
+            
+            if self.sumColumn.count > 0 {
+                sum = self.sumColumn[itemIndex]
+                percent = CGFloat(item) / CGFloat(sum) * 100.0
+            }
             
             var y = height - CGFloat(percent) * factor
             

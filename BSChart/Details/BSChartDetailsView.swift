@@ -35,6 +35,7 @@ class BSChartDetailsView: BSChartBaseView, UIGestureRecognizerDelegate {
     private var isArea: Bool = false
     private var percentage: Bool = false
     private var stacked: Bool = false
+    private var showSum: Bool = false
     private var leftSide: Bool = true
     private var section: Int = 0
     
@@ -59,6 +60,7 @@ class BSChartDetailsView: BSChartBaseView, UIGestureRecognizerDelegate {
         self.isArea = item.type == .area
         self.percentage = item.percentage
         self.stacked = item.stacked
+        self.showSum = item.sum
         let recreateDots = self.items.count != items.count
         self.items = items
         self.min = min
@@ -73,7 +75,7 @@ class BSChartDetailsView: BSChartBaseView, UIGestureRecognizerDelegate {
         }
         
         var count = items.count
-        if self.isBar && self.stacked {
+        if (self.isBar && self.stacked) || self.showSum {
             count += 1
         }
         self.detailsViewHeightConstraint.constant = CGFloat(count) * BSChartDetailsCell.height() + 8.0
@@ -229,7 +231,7 @@ class BSChartDetailsView: BSChartBaseView, UIGestureRecognizerDelegate {
             return
         }
         
-        if self.isBar && self.stacked {
+        if (self.isBar && self.stacked) || self.showSum {
             var sum = 0
             for value in values {
                 sum += value

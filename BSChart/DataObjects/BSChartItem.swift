@@ -18,6 +18,7 @@ class BSChartItem {
     public var yScaled: Bool!
     public var percentage: Bool!
     public var stacked: Bool!
+    public var sum: Bool!
     public var single: Bool!
     public var index: Int!
     
@@ -29,6 +30,7 @@ class BSChartItem {
         self.yScaled = item.yScaled
         self.percentage = item.percentage
         self.stacked = item.stacked
+        self.sum = item.sum
         self.single = item.single
         self.index = item.index
         
